@@ -15,7 +15,7 @@ Complete all 10 certifications, build portfolio-ready projects, and document eve
 ## 📦 Certifications
 
 - [x] Responsive Web Design
-- [ ] JavaScript Algorithms and Data Structures
+- [x] JavaScript Algorithms and Data Structures
 - [ ] Front End Libraries
 - [ ] Back End Development and APIs
 - [ ] Quality Assurance
