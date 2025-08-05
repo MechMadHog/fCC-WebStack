@@ -8,7 +8,7 @@ Tracking my full progress through the [freeCodeCamp.org](https://www.freecodecam
 ---
 
 ## 🎯 Goal
-Complete all 10 certifications, build portfolio-ready projects, and document everything to share the learning journey.
+Complete all 12 certifications, build portfolio-ready projects, and document everything to share the learning journey.
 
 ---
 
@@ -17,7 +17,9 @@ Complete all 10 certifications, build portfolio-ready projects, and document eve
 - [x] Responsive Web Design
 - [x] JavaScript Algorithms and Data Structures
 - [ ] Front End Libraries
+- [ ] Data Visualization
 - [ ] Back End Development and APIs
+- [ ] Relational Databases
 - [ ] Quality Assurance
 - [ ] Scientific Computing with Python
 - [ ] Data Analysis with Python
