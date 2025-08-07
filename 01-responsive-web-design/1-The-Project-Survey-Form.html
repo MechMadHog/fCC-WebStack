@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>What Type of Metalhead Are You?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">What Type of Metalhead Are You?</h1>
+  <p id="description">Take this brutal quiz to find out where you stand in the metal pantheon.</p>
+
+  <form id="survey-form">
+    <fieldset>
+      <legend><h2>Tell Us About You</h2></legend>
+      <label id="name-label" for="name">Name:
+        <input id="name" name="name" type="text" placeholder="James Hetfield" required />
+      </label>
+      <label id="email-label" for="email">Email:
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+      </label>
+      <label id="number-label" for="number">Age:
+        <input id="number" name="age" type="number" min="13" max="120" placeholder="666" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend><h2>Favourite Metal Subgenre</h2></legend>
+      <label for="dropdown">Choose your main vibe:
+        <select id="dropdown" name="subgenre" required>
+          <option value="">(select one)</option>
+          <option value="thrash">Thrash Metal</option>
+          <option value="nu-metal">Nu Metal</option>
+          <option value="tech-death">Technical Death Metal</option>
+          <option value="core">Metalcore</option>
+          <option value="melodic">Melodic Death Metal</option>
+          <option value="poser">Whatever Five Finger Death Punch is?</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend><h2>The Big 4 (Choose One)</h2></legend>
+      <label><input type="radio" name="big4" value="metallica"> Metallica</label>
+      <label><input type="radio" name="big4" value="slayer"> Slayer</label>
+      <label><input type="radio" name="big4" value="megadeth"> Megadeth</label>
+      <label><input type="radio" name="big4" value="anthrax"> Anthrax (Bring the Noize is alright I guess)</label>
+    </fieldset>
+
+    <fieldset>
+      <legend><h2>Other Bands You Worship</h2></legend>
+      <label><input type="checkbox" name="band" value="pantera"> Pantera </label>
+      <label><input type="checkbox" name="band" value="testament"> Testament</label>
+      <label><input type="checkbox" name="band" value="meshuggah"> Meshuggah</label>
+      <label><input type="checkbox" name="band" value="death"> Death</label>
+      <label><input type="checkbox" name="band" value="children-of-bodom"> Children of Bodom</label>
+      <label><input type="checkbox" name="band" value="lamb-of-god"> Lamb of God</label>
+    </fieldset>
+
+    <fieldset>
+      <legend><h2>Final Thoughts</h2></legend>
+      <label for="comments">Insults, unpopular opinions, or brutal truths:
+        <textarea id="comments" name="comments" rows="4" placeholder="Black Metal sucks balls. Fight me."></textarea>
+      </label>
+    </fieldset>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
