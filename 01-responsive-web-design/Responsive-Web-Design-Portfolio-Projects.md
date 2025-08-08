@@ -40,6 +40,8 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - **2.2** FlexBox Photo Gallery → *A Skateboarding Photo Gallery* (evolved from Pictures of Cats - I'm not a cat person.)
     [Skateboarding Photo Gallery](https://codepen.io/Mike-MacDonagh/pen/RNWZrBe)
 
+- **2.3** Typography and expanded use of FlexBox → *I remade my CV in HTML and CSS* (evolved from a Nutrition Label)
+    [My Current CV](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)
 
 ---
 
