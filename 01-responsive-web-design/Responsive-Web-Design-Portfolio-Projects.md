@@ -37,6 +37,10 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - **2.1** The Painting → *Mondrian-Inspired Grid with Imperfections* (evolved from Rothko idea)
     [The Mondrian Painting](https://codepen.io/Mike-MacDonagh/pen/pvjwYVY)
 
+- **2.2** FlexBox Photo Gallery → *A Skateboarding Photo Gallery* (evolved from Pictures of Cats - I'm not a cat person.)
+    [Skateboarding Photo Gallery](https://codepen.io/Mike-MacDonagh/pen/RNWZrBe)
+
+
 ---
 
 ### 3. 📚 Technical Documentation Page  
