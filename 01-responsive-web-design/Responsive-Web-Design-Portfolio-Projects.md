@@ -43,7 +43,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - **2.3** Typography and expanded use of FlexBox → *I remade my CV in HTML and CSS* (evolved from a Nutrition Label)
     [My Current CV](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)
 
-- **2.4** Accessibility & Themed Quiz Project → *Hunter’s Diagnostic Checklist (evolved from FCC’s Accessibility Quiz)
+- **2.4** Accessibility & Themed Quiz Project → *Hunter’s Diagnostic Checklist* (evolved from FCC’s Accessibility Quiz)
     [Hunter’s Diagnostic Checklist](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)
 
 ---
