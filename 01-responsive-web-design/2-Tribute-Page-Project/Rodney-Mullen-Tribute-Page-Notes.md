@@ -53,5 +53,5 @@ Rodney-Mullen-Tribute-Page/
 
 ## 🚀 Live Demo
 
-Coming soon — will be deployed on GitHub Pages.
+[Live Demo](https://codepen.io/Mike-MacDonagh/pen/JoYWqdV)
 
