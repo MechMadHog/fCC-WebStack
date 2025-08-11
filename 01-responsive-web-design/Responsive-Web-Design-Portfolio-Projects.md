@@ -31,7 +31,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 
 ### 2. 🎨 Tribute Page  
 **Primary Project:**  
-- _(Not yet created)_
+- [The Tribute Page - The Godfather of Skate Rodney Mullen](https://codepen.io/Mike-MacDonagh/pen/JoYWqdV)
 
 **Sub-Projects:**  
 - **2.1** The Painting → *Mondrian-Inspired Grid with Imperfections* (evolved from Rothko idea)

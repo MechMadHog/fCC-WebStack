@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+
+:root {
+  --bg: #fafafa;
+  --ink: #1b1b32;
+  --muted: #4a4a4a;
+  --line: #dcdcdc;
+  --card: #fff;
+  --accent: #61c2d3;
+  --hover-accent: #007c91;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: "Montserrat", sans-serif; }
+
+.hero, .footer {
+  text-align: center;
+  background-color: #e0f7fa;
+  padding: 2rem 1rem;
+}
+.subtitle { color: var(--hover-accent); font-size: 1.25rem; }
+
+.container { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+
+#img-div { text-align: center; }
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+#image:hover { transform: scale(1.02); }
+#img-caption { margin-top: .75rem; color: var(--muted); font-style: italic; }
+
+.intro p { text-align: center; font-size: 1.1rem; }
+
+.timeline h2 { text-align: center; margin-bottom: 1rem; }
+.timeline-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.timeline-item {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.timeline-item h3 {
+  margin-top: 0;
+  color: var(--accent);
+  transition: color 0.3s ease;
+}
+.timeline-item:hover {
+  border-left-color: var(--hover-accent);
+  transform: translateY(-3px);
+}
+.timeline-item:hover h3 {
+  color: var(--hover-accent);
+}
+.timeline-item img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: .5rem;
+}
+
+.quote { text-align: center; margin-top: 2rem; }
+.quote blockquote { font-style: italic; margin: 0 auto; max-width: 60ch; }
+.quote cite { display: block; margin-top: .5rem; color: var(--muted); }
+.footer p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+
+#tribute-link { text-decoration: none; }
+#tribute-link:hover img { filter: brightness(1.05); }
