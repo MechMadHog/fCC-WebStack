@@ -53,7 +53,9 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - _(Not yet created)_
 
 **Sub-Projects:**  
-- **3.1** (To be created)  
+- **3.1** CSS Pseudo Selectors Balance Sheet → *Weight Loss Guide* (evolved from FCC’s Balance Sheet)
+    [Calories In vs Out](https://codepen.io/Mike-MacDonagh/pen/YPyEjwb)
+
 - **3.2** (To be created)  
 - **3.3** (To be created)
 
