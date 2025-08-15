@@ -8,11 +8,11 @@ Tracking my full progress through the [freeCodeCamp.org](https://www.freecodecam
 ---
 
 ## 🎯 Goal
-Complete all 12 certifications, build portfolio-ready projects, and document everything to share the learning journey.
+Complete the first seven certifications, build portfolio-ready projects, and document everything to share the learning journey.
 
 ---
 
-## 📦 Certifications
+## 📦 Web Development Certifications
 
 - [x] Responsive Web Design
 - [x] JavaScript Algorithms and Data Structures
@@ -21,27 +21,6 @@ Complete all 12 certifications, build portfolio-ready projects, and document eve
 - [ ] Back End Development and APIs
 - [ ] Relational Databases
 - [ ] Quality Assurance
-- [ ] Scientific Computing with Python
-- [ ] Data Analysis with Python
-- [ ] Information Security
-- [ ] Machine Learning with Python
-- [ ] College Algebra with Python
-
----
-
-## 🎁 Bonuses & Practice Resources
-
-### 🧠 Coding Interview Prep
-A large bank of algorithms and data structure problems for brushing up before job interviews. Great for practicing logic and writing clean code under constraints.
-
-### 🧮 Project Euler
-A deep dive into math-heavy programming challenges that teach problem decomposition and efficient algorithms. Best for sharpening your logical thinking and numeric optimization skills.
-
-### 🛠️ The Odin Project
-Another full-stack curriculum that complements FCC with a more “build-first” approach. Especially good for learning Git, Node.js, and real-world workflows.
-
-### 🌍 Rosetta Code
-A repository of the same algorithm or task written in many programming languages. Perfect for language comparison, syntactic clarity, and seeing how problems are solved across paradigms.
 
 ---
 
