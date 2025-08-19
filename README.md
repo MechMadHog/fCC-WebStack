@@ -1,4 +1,4 @@
-# 🌐 My freeCodeCamp Path
+# 🌐 My freeCodeCamp Web Development Path
 
 Tracking my full progress through the [freeCodeCamp.org](https://www.freecodecamp.org/) curriculum — replacing social media with skill-building and working toward mastery in full-stack web development.
 
