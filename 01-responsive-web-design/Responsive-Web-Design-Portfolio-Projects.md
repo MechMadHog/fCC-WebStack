@@ -59,7 +59,8 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - **3.2** Intermediate CSS - Painting → *Boba Fett / Mandalorian Helmet* (evolved from FCC’s Intermediate CSS - Cat Painting)
     [The Dented Helmet](https://codepen.io/Mike-MacDonagh/pen/EaVQNQg)
    
-- **3.3** (To be created)
+- **3.3** Responsive Web Design - Chessboard → *Star Wars Holo-Chess (Dejarik Table)* (expanded from FCC’s Responsive Web Design - Piano)  
+    [Dejarik Holo-Chess](https://codepen.io/Mike-MacDonagh/pen/VYvxzeq)
 
 ---
 
