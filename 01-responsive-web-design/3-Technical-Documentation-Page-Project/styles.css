@@ -1,0 +1,105 @@
+/* --- Base & Fonts --- */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  color: #1b1b1b;                /* dark slate text */
+  background: #f4f4f4;           /* chalky light gray */
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  display: flex; /* left nav + main */
+  line-height: 1.6;
+}
+
+/* --- Navbar (fixed left) --- */
+#navbar {
+  position: fixed;
+  inset: 0 auto 0 0;             /* top:0, left:0, bottom:0 */
+  width: 260px;
+  background: #2a2a2a;           /* iron/steel */
+  border-right: 2px solid #444;
+  padding: 1.25rem 1rem;
+  overflow-y: auto;
+}
+
+#navbar > header {
+  font-family: 'Oswald', Impact, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: .04em;
+  color: #b02e0c;                /* crimson accent */
+  text-transform: uppercase;
+  margin-bottom: .75rem;
+}
+
+#navbar .nav-link {
+  display: block;
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: .35rem 0;
+  padding-right: .75rem; 
+  margin-bottom: .4rem;
+  border-right: 3px solid transparent;
+  transition: all 0.2s ease;
+  text-align: right;
+}
+#navbar .nav-link:hover {
+  color: #b02e0c;
+  border-right-color: #b02e0c;
+}
+
+/* --- Main Content --- */
+#main-doc {
+  margin-left: 280px;            /* space for nav */
+  padding: 2rem;
+  max-width: 900px;
+  padding-bottom: 6rem; /* extra whitespace at bottom for scroll breathing room */
+}
+
+.main-section > header {
+  font-family: 'Oswald', Impact, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #b02e0c;                /* crimson headers */
+  margin: .25rem 0 0.75rem;
+}
+
+p { margin: 0 0 0.75rem; color: #1b1b1b; }
+ul { margin: 0.5rem 0 1.25rem 1.25rem; }
+li { margin: 0.25rem 0; }
+
+/* --- Code Blocks --- */
+code {
+  display: block;
+  background: #2a2a2a;           /* chalkboard look */
+  color: #f4f4f4;                /* chalk text */
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 0.6rem 0.75rem;
+  margin: 0.65rem 0 0.9rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: .92rem;
+}
+
+/* --- Links --- */
+a { color: #b02e0c; }
+a:hover { color: #7a1f09; }
+
+/* --- Responsive (FCC requirement) --- */
+@media (max-width: 860px) {
+  body { flex-direction: column; }
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    inset: auto;
+    display: block;
+  }
+  #main-doc { margin-left: 0; padding: 1.25rem; }
+  #navbar .nav-link { display: inline-block; margin-right: 1rem; }
+}
+
+/* --- Accessibility --- */
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
