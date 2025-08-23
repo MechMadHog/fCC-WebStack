@@ -50,7 +50,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 
 ### 3. 📚 Technical Documentation Page  
 **Primary Project:**  
-- _(Not yet created)_
+- [The Technical Documentation Page – Yolked / Bear-Mode Docs](https://codepen.io/Mike-MacDonagh/pen/EaVRjgM)
 
 **Sub-Projects:**  
 - **3.1** CSS Pseudo Selectors Balance Sheet → *Weight Loss Guide* (evolved from FCC’s Balance Sheet)
