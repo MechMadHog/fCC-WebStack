@@ -69,7 +69,8 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - _(Not yet created)_
 
 **Sub-Projects:**  
-- **4.1** (To be created)  
+- **4.1** Responsive Web Design – City Skyline → *Go With The Flow Desert Scene* (expanded from FCC’s Responsive Web Design – City Skyline) [Go With The Flow Desert Scene](https://codepen.io/Mike-MacDonagh/pen/KwdxVLM)
+
 - **4.2** (To be created)
 
 ---
