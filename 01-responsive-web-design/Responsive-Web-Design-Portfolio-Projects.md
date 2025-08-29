@@ -71,7 +71,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 **Sub-Projects:**  
 - **4.1** Responsive Web Design – City Skyline → *Go With The Flow Desert Scene* (expanded from FCC’s Responsive Web Design – City Skyline) [Go With The Flow Desert Scene](https://codepen.io/Mike-MacDonagh/pen/KwdxVLM)
 
-- **4.2** (To be created)
+- **4.2** Responsive Web Design – CSS Grid Magazine → *Queens of the Stone Age Album Spread* (expanded from FCC’s Responsive Web Design – CSS Grid Magazine) [Queens of the Stone Age Album Spread](https://codepen.io/Mike-MacDonagh/pen/raOZZYL)
 
 ---
 
