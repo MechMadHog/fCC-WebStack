@@ -80,7 +80,8 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 - _(Not yet created)_
 
 **Sub-Projects:**  
-- **5.1** (To be created)  
+- **5.1** CSS Animation – Ferris Wheel → *Vinyl Record Spinner (Warehouse Manifesto Edition)* (expanded from FCC’s CSS Animation – Ferris Wheel) [Vinyl Record Spinner](https://codepen.io/Mike-MacDonagh/pen/JoYmJmo)
+
 - **5.2** (To be created)
 
 ---
