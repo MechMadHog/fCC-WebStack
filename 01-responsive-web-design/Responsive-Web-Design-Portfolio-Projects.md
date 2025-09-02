@@ -66,7 +66,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 
 ### 4. 🛍️ Product Landing Page  
 **Primary Project:**  
-- _(Not yet created)_
+- [The Product Landing Page – Plumbus (Rick and Morty Parody)](https://codepen.io/Mike-MacDonagh/pen/xbwayEj)
 
 **Sub-Projects:**  
 - **4.1** Responsive Web Design – City Skyline → *Go With The Flow Desert Scene* (expanded from FCC’s Responsive Web Design – City Skyline) [Go With The Flow Desert Scene](https://codepen.io/Mike-MacDonagh/pen/KwdxVLM)
@@ -82,7 +82,7 @@ I’ve taken each core project and expanded it with my own creative sub-projects
 **Sub-Projects:**  
 - **5.1** CSS Animation – Ferris Wheel → *Vinyl Record Spinner (Warehouse Manifesto Edition)* (expanded from FCC’s CSS Animation – Ferris Wheel) [Vinyl Record Spinner](https://codepen.io/Mike-MacDonagh/pen/JoYmJmo)
 
-- **5.2** (To be created)
+- **5.2** CSS Animation – Jack-o’-Lantern → *Scary Pumpkin with Flickering Candle* (expanded from FCC’s CSS Transforms section - Penguin) [Jack-o’-Lantern](https://codepen.io/Mike-MacDonagh/pen/myeQwqe)
 
 ---
 
