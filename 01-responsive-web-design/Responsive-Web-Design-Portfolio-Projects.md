@@ -1,102 +1,125 @@
-# Responsive Web Design Projects Overview
+# Responsive Web Design — Portfolio Projects
 
-This Markdown file tracks all my progress through the FreeCodeCamp **Responsive Web Design** Certification.  
-I’ve taken each core project and expanded it with my own creative sub-projects, turning the basic lessons into unique portfolio pieces. All of them are published in the following CodePen collection:
+**FreeCodeCamp Certificate 01: Responsive Web Design (Completed)**  
+[View Certificate](#)  
+
+✅ 20 personal projects completed 
+Fifteen of the projects in this repo were built directly alongside the FCC lessons, although what I have added to my Codepen are **completely unique expansions** I created to avoid just repeating the standard course work.  
+
+Every single one of these projects were carefully **thought up, restyled, and iterated** by me until I was satisfied with the final result.  
+
+And are they truly finished? Maybe not. For example, it would be amazing to eventually turn the **Star Wars Holo-Chess** board into a fully playable game. These projects are stepping stones as much as they are portfolio pieces.
 
 
-🔗 **CodePen Collection:** [FCC Projects - Responsive Web Design - Certificate 01](https://codepen.io/collection/OyNaGb)  
+🔗 **Final Project (Portfolio Page):** [Personal Portfolio Webpage](https://codepen.io/Mike-MacDonagh/pen/bNVOrxK)  
+🔗 **Full Collection (20 Projects):** [Responsive Web Design Collection](https://codepen.io/collection/OyNaGb)
 
 ---
 
-## 📁 Main Projects and Sub-Projects
-
-### 1. 🧾 Survey Form  
-**Primary Project:**  
-- [The Survey Form - What Kind of Metal Head Are You?](https://codepen.io/Mike-MacDonagh/pen/ByoZwao)
+## 1. 🧾 Survey Form
+**Origin:** FCC Survey Form.  
+**Project:** [What Kind of Metal Head Are You?](https://codepen.io/Mike-MacDonagh/pen/ByoZwao)  
+**What I learned:** Semantic form structure, accessible labels, validation.  
 
 **Sub-Projects:**  
-- **1.1** Cat Photo App → *Soon to be “Jasper Photo App”* (CSS added so far)
-    [Photo App](https://codepen.io/Mike-MacDonagh/pen/yyYMrMM)
-
-- **1.2** Café App → *Mac's Wrap Shack* (Burrito bar menu)
-    [Burrito Bar Menu](https://codepen.io/Mike-MacDonagh/pen/raOybGY)
-
-- **1.3** Colored Markers → *Expanded into a full coloring set*
-    [Marker Colouring Set](https://codepen.io/Mike-MacDonagh/pen/EaVmymK)
-
-- **1.4** Registration Form → *Cyberpunk-style Replicant Registration (Blade Runner)*
-    [Replicant Registration Form](https://codepen.io/Mike-MacDonagh/pen/azvwyQq)
+- **1.1 Cat Photo App →** *Stoic Philosophers Photo App*  
+  [Photo App](https://codepen.io/Mike-MacDonagh/pen/yyYMrMM)  
+  *Learned: how to style a simple image app and prepare to theme it personally.*  
+- **1.2 Café Menu →** *Mac's Wrap Shack (Burrito Bar Menu)*  
+  [Menu](https://codepen.io/Mike-MacDonagh/pen/raOybGY)  
+  *Learned: structuring a realistic menu with CSS styling.*  
+- **1.3 Colored Markers →** *Expanded into a full coloring set*  
+  [Markers](https://codepen.io/Mike-MacDonagh/pen/EaVmymK)  
+  *Learned: gradients, box shadows, styling basics.*  
+- **1.4 Registration Form →** *Replicant Registration (Blade Runner Cyberpunk)*  
+  [Replicant Form](https://codepen.io/Mike-MacDonagh/pen/azvwyQq)  
+  *Learned: building thematic forms with consistent branding.*
 
 ---
 
-### 2. 🎨 Tribute Page  
-**Primary Project:**  
-- [The Tribute Page - The Godfather of Skate Rodney Mullen](https://codepen.io/Mike-MacDonagh/pen/JoYWqdV)
+## 2. 🎨 Tribute Page
+**Origin:** FCC Tribute Page.  
+**Project:** [Rodney Mullen – The Godfather of Skate](https://codepen.io/Mike-MacDonagh/pen/JoYWqdV)  
+**What I learned:** Centering content, combining text and images, strong visual hierarchy.  
 
 **Sub-Projects:**  
-- **2.1** The Painting → *Mondrian-Inspired Grid with Imperfections* (evolved from Rothko idea)
-    [The Mondrian Painting](https://codepen.io/Mike-MacDonagh/pen/pvjwYVY)
-
-- **2.2** FlexBox Photo Gallery → *A Skateboarding Photo Gallery* (evolved from Pictures of Cats - I'm not a cat person.)
-    [Skateboarding Photo Gallery](https://codepen.io/Mike-MacDonagh/pen/RNWZrBe)
-
-- **2.3** Typography and expanded use of FlexBox → *I remade my CV in HTML and CSS* (evolved from a Nutrition Label)
-    [My Current CV](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)
-
-- **2.4** Accessibility & Themed Quiz Project → *Hunter’s Diagnostic Checklist* (evolved from FCC’s Accessibility Quiz)
-    [Hunter’s Diagnostic Checklist](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)
+- **2.1 Painting →** *Mondrian-Inspired Grid*  
+  [Mondrian](https://codepen.io/Mike-MacDonagh/pen/pvjwYVY)  
+  *Learned: CSS grid layout & minimalism.*  
+- **2.2 Flex Gallery →** *Skateboarding Photo Gallery*  
+  [Gallery](https://codepen.io/Mike-MacDonagh/pen/RNWZrBe)  
+  *Learned: flexbox galleries, responsive scaling.*  
+- **2.3 Nutrition Label →** *My CV in HTML/CSS*  
+  [CV](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)  
+  *Learned: typography, layout, resume structure in code.*  
+- **2.4 Accessibility Quiz →** *Hunter’s Diagnostic Checklist*  
+  [Checklist](https://codepen.io/Mike-MacDonagh/pen/EaVvWwZ)  
+  *Learned: accessibility best practices, form controls.*
 
 ---
 
-### 3. 📚 Technical Documentation Page  
-**Primary Project:**  
-- [The Technical Documentation Page – Yolked / Bear-Mode Docs](https://codepen.io/Mike-MacDonagh/pen/EaVRjgM)
+## 3. 📚 Technical Documentation Page
+**Origin:** FCC Technical Docs.  
+**Project:** [Yolked / Bear-Mode Docs](https://codepen.io/Mike-MacDonagh/pen/EaVRjgM)  
+**What I learned:** Multi-column layouts, sidebar navigation, documentation structure.  
 
 **Sub-Projects:**  
-- **3.1** CSS Pseudo Selectors Balance Sheet → *Weight Loss Guide* (evolved from FCC’s Balance Sheet)
-    [Calories In vs Out](https://codepen.io/Mike-MacDonagh/pen/YPyEjwb)
-
-- **3.2** Intermediate CSS - Painting → *Boba Fett / Mandalorian Helmet* (evolved from FCC’s Intermediate CSS - Cat Painting)
-    [The Dented Helmet](https://codepen.io/Mike-MacDonagh/pen/EaVQNQg)
-   
-- **3.3** Responsive Web Design - Chessboard → *Star Wars Holo-Chess (Dejarik Table)* (expanded from FCC’s Responsive Web Design - Piano)  
-    [Dejarik Holo-Chess](https://codepen.io/Mike-MacDonagh/pen/VYvxzeq)
+- **3.1 Balance Sheet →** *Calories In vs Out (Weight Loss Guide)*  
+  [Guide](https://codepen.io/Mike-MacDonagh/pen/YPyEjwb)  
+  *Learned: pseudo-selectors, data layout.*  
+- **3.2 Cat Painting →** *The Dented Helmet (Boba Fett)*  
+  [Helmet](https://codepen.io/Mike-MacDonagh/pen/EaVQNQg)  
+  *Learned: creating shapes with CSS, intermediate design work.*  
+- **3.3 Piano →** *Star Wars Dejarik Holo-Chess*  
+  [Holo-Chess](https://codepen.io/Mike-MacDonagh/pen/VYvxzeq)  
+  *Learned: advanced grid layouts and creative theming.*
 
 ---
 
-### 4. 🛍️ Product Landing Page  
-**Primary Project:**  
-- [The Product Landing Page – Plumbus (Rick and Morty Parody)](https://codepen.io/Mike-MacDonagh/pen/xbwayEj)
+## 4. 🛍️ Product Landing Page
+**Origin:** FCC Landing Page.  
+**Project:** [Plumbus (Rick & Morty parody)](https://codepen.io/Mike-MacDonagh/pen/xbwayEj)  
+**What I learned:** Complex layout with hero, pricing, forms, and embedded video.  
 
 **Sub-Projects:**  
-- **4.1** Responsive Web Design – City Skyline → *Go With The Flow Desert Scene* (expanded from FCC’s Responsive Web Design – City Skyline) [Go With The Flow Desert Scene](https://codepen.io/Mike-MacDonagh/pen/KwdxVLM)
-
-- **4.2** Responsive Web Design – CSS Grid Magazine → *Queens of the Stone Age Album Spread* (expanded from FCC’s Responsive Web Design – CSS Grid Magazine) [Queens of the Stone Age Album Spread](https://codepen.io/Mike-MacDonagh/pen/raOZZYL)
+- **4.1 City Skyline →** *Go With The Flow Desert Scene*  
+  [Desert Scene](https://codepen.io/Mike-MacDonagh/pen/KwdxVLM)  
+  *Learned: layering, backgrounds, gradients.*  
+- **4.2 CSS Grid Magazine →** *Queens of the Stone Age Album Spread*  
+  [QOTSA Spread](https://codepen.io/Mike-MacDonagh/pen/raOZZYL)  
+  *Learned: magazine-style layouts with grid and typography.*
 
 ---
 
-### 5. 👤 Personal Portfolio Page  
-**Primary Project:**  
-- _(Not yet created)_
+## 5. 👤 Personal Portfolio Page
+**Origin:** FCC Portfolio Page.  
+**Project:** [Personal Portfolio Webpage](https://codepen.io/Mike-MacDonagh/pen/bNVOrxK)  
+**What I learned:** Pulling everything together — grid, responsive design, sticky nav, glowing themes.  
 
 **Sub-Projects:**  
-- **5.1** CSS Animation – Ferris Wheel → *Vinyl Record Spinner (Warehouse Manifesto Edition)* (expanded from FCC’s CSS Animation – Ferris Wheel) [Vinyl Record Spinner](https://codepen.io/Mike-MacDonagh/pen/JoYmJmo)
-
-- **5.2** CSS Animation – Jack-o’-Lantern → *Scary Pumpkin with Flickering Candle* (expanded from FCC’s CSS Transforms section - Penguin) [Jack-o’-Lantern](https://codepen.io/Mike-MacDonagh/pen/myeQwqe)
-
----
-
-## 🚀 What This Becomes
-
-Once the course is finished, I’ll not only earn the **Responsive Web Design certificate**—I’ll also have a full CodePen portfolio of original, stylized versions of every major project and sub-project.
-
-This collection is a demonstration of how I:
-- Apply what I’ve learned
-- Build creatively from simple structures
-- Transform tutorials into something personal and impressive
+- **5.1 Ferris Wheel →** *Vinyl Record Spinner (Warehouse Manifesto)*  
+  [Record Spinner](https://codepen.io/Mike-MacDonagh/pen/JoYmJmo)  
+  *Learned: CSS animations, transforms, rotating elements.*  
+- **5.2 Penguin →** *Jack-o’-Lantern with Flickering Candle*  
+  [Pumpkin](https://codepen.io/Mike-MacDonagh/pen/myeQwqe)  
+  *Learned: combining CSS transforms with creative glow effects.*
 
 ---
 
-## 📦 Future Plans
+## 🎓 Conclusion
+I’ve now **completed all 20 Responsive Web Design projects** and earned my first FreeCodeCamp certificate.  
 
-- Additional collections may follow (e.g., **Frontend Libraries**, **JavaScript Algorithms**), but I expect this one certificate + portfolio will be enough to stand out to any employer.
+This journey took me through:  
+- Semantic HTML & accessible forms  
+- Flexbox & CSS Grid  
+- Responsive design with media queries  
+- Typography, layout, and theme building  
+- Pure CSS graphics, animations, and creative experiments  
+
+I’ve shown I can take the FCC starter challenges and expand them into **personal, stylized portfolio pieces**.  
+
+---
+
+## 🚀 Next Step
+On to **JavaScript Algorithms and Data Structures**.  
+Time to start making my projects **dynamic and interactive** — moving from “coding” with HTML/CSS into true **programming**.
