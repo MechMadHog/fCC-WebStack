@@ -14,11 +14,13 @@ Later on, expand into **Python + InfoSec** as a separate track.
 ---
 
 ## 📦 Web Development Certifications (FCC)
-
+### Current:
 - [x] Responsive Web Design  
   - 🖥️ [FCC Projects – Responsive Web Design (CodePen Collection)](https://codepen.io/collection/OyNaGb)  
 - [x] JavaScript Algorithms and Data Structures  
-  - _(CodePen collection link coming soon)_  
+  - 🖥️ [FCC Projects – JS: Algorithms & Data Structures (CodePen Collection)](https://codepen.io/collection/EPypbo )  
+    
+### Yet To Start:
 - [ ] Front End Libraries  
   - _(collection link placeholder)_  
 - [ ] Data Visualization  
