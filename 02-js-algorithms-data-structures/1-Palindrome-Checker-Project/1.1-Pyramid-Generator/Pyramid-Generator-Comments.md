@@ -114,3 +114,4 @@ So far the essentials are:
 ---
 
 📌 Next: Use `padRow` to handle pyramid formatting logic.
+

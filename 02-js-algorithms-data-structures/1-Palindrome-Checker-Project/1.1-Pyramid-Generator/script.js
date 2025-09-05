@@ -7,6 +7,13 @@ const rows = [];
 Everything I am adding - isn't staying in the app 
 We have stated building the piramid
 */
+function padRow() {
+
+}
+const call = padRow();
+console.log(call);
+
+
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character.repeat(i + 1))
 }
