@@ -30,6 +30,3 @@ for (const row of rows) {
 }
 
 console.log(result);
-
-
-?!_B0h3m14n-F1tn35s_!?
