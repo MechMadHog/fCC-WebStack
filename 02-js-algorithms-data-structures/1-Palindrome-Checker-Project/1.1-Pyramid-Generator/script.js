@@ -8,19 +8,16 @@ function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
 
-
 // TODO: use a different type of loop
 /*for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
 }*/
 
-let continueLoop = false;
 let done = 0;
 
-while (continueLoop) {
+while (done <= count) {
   done++;
-    if (done == count) {
-  }
+  rows.push(padRow(done, count));
 }
 
 let result = ""
