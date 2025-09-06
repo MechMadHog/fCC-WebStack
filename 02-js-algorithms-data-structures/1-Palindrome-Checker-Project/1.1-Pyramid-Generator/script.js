@@ -3,19 +3,24 @@
 const character = "#";
 const count = 8;
 const rows = [];
-/* 
-Everything I am adding - isn't staying in the app 
-We have stated building the piramid
-*/
-function padRow() {
 
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
-const call = padRow();
-console.log(call);
 
 
-for (let i = 0; i < count; i = i + 1) {
-  rows.push(character.repeat(i + 1))
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {
+  done++;
+    if (done == count) {
+  }
 }
 
 let result = ""
@@ -25,3 +30,6 @@ for (const row of rows) {
 }
 
 console.log(result);
+
+
+?!_B0h3m14n-F1tn35s_!?
