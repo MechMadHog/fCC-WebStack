@@ -48,7 +48,10 @@ Many of these projects will start small and practical — validators, converters
 ## 📚 Sub-Projects
 Alongside the main certificate projects, I’ll be creating smaller apps and experiments with JavaScript:  
 
-- **1.1 Pyramid Generator** → [Link TBD]  
+- **1.1 Pyramid Generator →** *Retro CRT Pyramid Console*  
+  [Pyramid Generator](https://codepen.io/Mike-MacDonagh/pen/qEOvBap)  
+  *Learned: JS basics (loops, strings), DOM buttons to run code, `<pre>` to preserve spacing, height slider & character input, plus an inverted toggle—all wrapped in an 80s/90s CRT theme.*
+  
 - **1.2 Gradebook App** → [Link TBD]  
 - **1.3 Role-Playing Game** → [Link TBD]  
 - **1.4 Random Background Color Changer** → [Link TBD]  
