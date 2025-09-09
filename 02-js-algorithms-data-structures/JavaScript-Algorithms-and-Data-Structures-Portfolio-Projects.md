@@ -52,7 +52,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Pyramid Generator](https://codepen.io/Mike-MacDonagh/pen/qEOvBap)  
   *Learned: JS basics (loops, strings), DOM buttons to run code, `<pre>` to preserve spacing, height slider & character input, plus an inverted toggle—all wrapped in an 80s/90s CRT theme.*
   
-- **1.2 Gradebook App** → [Link TBD]  
+- **1.2 Gradebook App →** *Handwritten Copybook Gradebook*  
+  [Gradebook App](https://codepen.io/Mike-MacDonagh/pen/wBKZGym)  
+  *Learned: parsing text input into scores, mapping results through conditional grading logic, and wiring it into the DOM with HTML/CSS. Styled to look like a school copybook to match the gradebook theme.*
+
 - **1.3 Role-Playing Game** → [Link TBD]  
 - **1.4 Random Background Color Changer** → [Link TBD]  
 - **1.5 Calorie Counter** → [Link TBD]  
