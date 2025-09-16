@@ -56,7 +56,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Gradebook App](https://codepen.io/Mike-MacDonagh/pen/wBKZGym)  
   *Learned: parsing text input into scores, mapping results through conditional grading logic, and wiring it into the DOM with HTML/CSS. Styled to look like a school copybook to match the gradebook theme.*
 
-- **1.3 Role-Playing Game** → [Link TBD]  
+- **1.3 Role-Playing Game →** *Echoes Beyond the Rift*  
+  [RPG](https://codepen.io/Mike-MacDonagh/pen/jEbgZmy)  
+  *Learned: reskinning a JS game without adding complexity, managing state for themed stats, swapping locations through a locations array, 4-button grid UI, random event hooks for the Easter egg, and a simple modal for story and instructions.*
+ 
 - **1.4 Random Background Color Changer** → [Link TBD]  
 - **1.5 Calorie Counter** → [Link TBD]  
 - **1.6 Rock Paper Scissors Game** → [Link TBD]  
