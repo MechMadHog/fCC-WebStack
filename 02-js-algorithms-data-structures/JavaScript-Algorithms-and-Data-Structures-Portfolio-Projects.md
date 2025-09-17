@@ -60,7 +60,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [RPG](https://codepen.io/Mike-MacDonagh/pen/jEbgZmy)  
   *Learned: reskinning a JS game without adding complexity, managing state for themed stats, swapping locations through a locations array, 4-button grid UI, random event hooks for the Easter egg, and a simple modal for story and instructions.*
  
-- **1.4 Random Background Color Changer** → [Link TBD]  
+- **1.4 Random Background Color Changer →** *Lightbulb Switch*  
+  [Lightbulb](https://codepen.io/Mike-MacDonagh/pen/XJXrMGp)  
+  *Learned: debugging basic JS errors (array commas, Math case, querySelector syntax), connecting a button to trigger style changes, practicing switch logic by toggling classes, and applying the idea to an SVG lightbulb for a visual on/off effect.*  
+
 - **1.5 Calorie Counter** → [Link TBD]  
 - **1.6 Rock Paper Scissors Game** → [Link TBD]  
 - **1.7 Music Player** → [Link TBD]  
