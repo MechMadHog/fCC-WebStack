@@ -64,7 +64,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Lightbulb](https://codepen.io/Mike-MacDonagh/pen/XJXrMGp)  
   *Learned: debugging basic JS errors (array commas, Math case, querySelector syntax), connecting a button to trigger style changes, practicing switch logic by toggling classes, and applying the idea to an SVG lightbulb for a visual on/off effect.*  
 
-- **1.5 Calorie Counter** → [Link TBD]  
+- **1.5 Calorie Counter →** *Health App Tracker*  
+  [Calorie Counter](https://codepen.io/Mike-MacDonagh/pen/RNrwKgP)  
+  *Learned: regex input cleaning; NodeList loops with `item.value`; live meal totals and hydration; exercise add back; 24 hour fast toggle; auto TDEE targets.*
+
 - **1.6 Rock Paper Scissors Game** → [Link TBD]  
 - **1.7 Music Player** → [Link TBD]  
 
