@@ -68,7 +68,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Calorie Counter](https://codepen.io/Mike-MacDonagh/pen/RNrwKgP)  
   *Learned: regex input cleaning; NodeList loops with `item.value`; live meal totals and hydration; exercise add back; 24 hour fast toggle; auto TDEE targets.*
 
-- **1.6 Rock Paper Scissors Game** → [Link TBD]  
+- **1.6 Rock Paper Scissors Game →** *Best of 5 Click Duel*  
+  [Rock Paper Scissors](https://codepen.io/Mike-MacDonagh/pen/bNENBBZ)  
+  *Learned: simple JS loop (click → compute → update); small helper functions (`getRandomComputerResult`, `hasPlayerWonTheRound`); DOM updates with `innerText`; score state with first to 3 win check; end message and reset button.*
+
 - **1.7 Music Player** → [Link TBD]  
 
 - **2.1 Date Formatter** → [Link TBD]  
