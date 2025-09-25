@@ -1,0 +1,110 @@
+:root{
+  --ink:#161616;
+  --paper:#fafafa;
+  --accent:#4E215E;            /* purple my favourite */
+  --accent-2:#2c3e50;          /* deep teal/blue for contrast */
+  --success:#1b7f4b;
+  --error:#9b1c31;
+  --focus:#ffcc00;             /* “golden key” focus */
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background:
+    linear-gradient(45deg, var(--paper) 25%, transparent 25%) 0 0/2rem 2rem,
+    linear-gradient(45deg, transparent 75%, var(--paper) 75%) 0 0/2rem 2rem,
+    linear-gradient(45deg, transparent 25%, var(--paper) 25%) 1rem 1rem/2rem 2rem,
+    linear-gradient(45deg, var(--paper) 75%, transparent 75%) 1rem 1rem/2rem 2rem,
+    var(--accent-2);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.card {
+  width: min(680px, 100%);
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  border-radius: 1.25rem;
+  box-shadow: 8px 8px 0 var(--ink);
+  padding: 1.25rem 1.25rem 1.5rem;
+  outline-offset: 4px;
+}
+
+.title {
+  margin: 0 0 .25rem;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  letter-spacing: .5px;
+}
+
+.subtitle { margin: 0 0 1rem; color: #333; }
+
+.label {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem;
+}
+
+input[type="text"]{
+  padding: .75rem .9rem;
+  border: 2px solid var(--ink);
+  border-radius: .75rem;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus{
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+button{
+  padding: .75rem 1rem;
+  border: 2px solid var(--ink);
+  border-radius: .75rem;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:focus{
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+button:hover { filter: saturate(1.1) brightness(1.05); }
+
+.hint { margin:.5rem 0 0; font-size: .9rem; color:#444; }
+
+.result{
+  margin: 1rem 0 0;
+  padding: .75rem .9rem;
+  border: 2px dashed var(--ink);
+  border-radius: .75rem;
+  min-height: 2.5rem;
+  background: #fff;
+  font-weight: 600;
+}
+
+.result.ok { border-color: var(--success); color: var(--success); }
+.result.no { border-color: var(--error);   color: var(--error);   }
+
+.footer {
+  position: fixed;
+  inset: auto 0 8px 0;
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: 0 1px 0 #000;
+}
