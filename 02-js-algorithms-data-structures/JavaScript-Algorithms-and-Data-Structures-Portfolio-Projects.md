@@ -72,7 +72,9 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Rock Paper Scissors](https://codepen.io/Mike-MacDonagh/pen/bNENBBZ)  
   *Learned: simple JS loop (click → compute → update); small helper functions (`getRandomComputerResult`, `hasPlayerWonTheRound`); DOM updates with `innerText`; score state with first to 3 win check; end message and reset button.*
 
-- **1.7 Music Player** → [Link TBD]  
+- **1.7 Music Player** → *JJ & Derek Mixtape Player*  
+  [Music Player](https://codepen.io/Mike-MacDonagh/pen/dPGGjRZ)  
+  *Learned: adapting FCC starter into my own style; swapping demo tracks for 5 originals from my jsDelivr CDN; fixing display update bug; preloading durations from metadata; styling with CRT-inspired neon theme and custom album art from Westmeath.*  
 
 - **2.1 Date Formatter** → [Link TBD]  
 - **2.2 Football Team Cards** → [Link TBD]  
