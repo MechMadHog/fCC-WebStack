@@ -11,9 +11,18 @@ Many of these projects will start small and practical — validators, converters
 ---
 
 ## 1. 🔁 Palindrome Checker
-**Origin:** FCC Palindrome Checker.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
+**Origin:** FCC Palindrome Checker  
+**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/qEbZBaR)  
+**What I learned:**
+- Translate user stories into exact elements and behaviors: `#text-input`, `#check-btn`, `#result`, alert on empty input
+- Clean input with a simple regex to ignore punctuation, spaces, case... reuse skills from Calorie Counter
+- Compare normalized text by reversing a string with basic array methods
+- Keep output wording exact so tests pass... `${original} is a palindrome.` or `${original} is not a palindrome.`
+- Wire events the simple way: `addEventListener('click')` and handle `submit` for keyboard users
+- Accessibility first: labeled inputs, `aria-live` result, high contrast focus styles
+- Light “Alice in Wonderland” theme while keeping readability and contrast strong
+
+**Tags:** `javascript`, `regex`, `dom`, `accessibility`, `beginner-project`
 
 ---
 
