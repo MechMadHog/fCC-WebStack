@@ -8,6 +8,9 @@ Here the focus shifts from *design and layout* to **pure programming**: solving 
 
 Many of these projects will start small and practical — validators, converters, and calculators — but the goal, as with my first certificate, is to **expand and customize** each one into something that feels like a true portfolio piece.  
 
+## 📚 Sub-Projects
+Alongside the main certificate projects, I’ll be creating smaller apps and experiments with JavaScript:  
+
 ---
 
 ## 1. 🔁 Palindrome Checker
@@ -21,41 +24,6 @@ Many of these projects will start small and practical — validators, converters
 - Wire events the simple way: `addEventListener('click')` and handle `submit` for keyboard users
 - Accessibility first: labeled inputs, `aria-live` result, high contrast focus styles
 - Light “Alice in Wonderland” theme while keeping readability and contrast strong
-
-**Tags:** `javascript`, `regex`, `dom`, `accessibility`, `beginner-project`
-
----
-
-## 2. 🔢 Roman Numeral Converter
-**Origin:** FCC Roman Numeral Converter.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
-
----
-
-## 3. ☎️ Telephone Number Validator
-**Origin:** FCC Telephone Validator.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
-
----
-
-## 4. 💰 Cash Register
-**Origin:** FCC Cash Register.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
-
----
-
-## 5. 🧙 RPG Creature Search App
-**Origin:** FCC final project (custom expansion).  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
-
----
-
-## 📚 Sub-Projects
-Alongside the main certificate projects, I’ll be creating smaller apps and experiments with JavaScript:  
 
 - **1.1 Pyramid Generator →** *Retro CRT Pyramid Console*  
   [Pyramid Generator](https://codepen.io/Mike-MacDonagh/pen/qEOvBap)  
@@ -83,21 +51,52 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 - **1.7 Music Player** → *JJ & Derek Mixtape Player*  
   [Music Player](https://codepen.io/Mike-MacDonagh/pen/dPGGjRZ)  
-  *Learned: adapting FCC starter into my own style; swapping demo tracks for 5 originals from my jsDelivr CDN; fixing display update bug; preloading durations from metadata; styling with CRT-inspired neon theme and custom album art from Westmeath.*  
+  *Learned: adapting FCC starter into my own style; swapping demo tracks for 5 originals from my jsDelivr CDN; fixing display update bug; preloading durations from metadata; styling with CRT-inspired neon theme and custom album art from Westmeath.* 
 
-- **2.1 Date Formatter** → [Link TBD]  
+---
+
+## 2. 🔢 Roman Numeral Converter
+**Origin:** FCC Roman Numeral Converter.  
+**Project:** [Link TBD]  
+**What I learned:** *TBD*  
+
+- **2.1 Date Formatter** → *Retro Date Utility*  
+  [Date Formatter](https://codepen.io/Mike-MacDonagh/pen/RNraPar)  
+  *Learned: FCC JS 2nd section project; rebuilt into a CRT-themed utility with boot-up typewriter effect, green phosphor glow, scanlines, and flicker; added extra formats (ISO 8601, UNIX timestamp, weekday, locale long); made live formats auto-update like a terminal command.*  
+
 - **2.2 Football Team Cards** → [Link TBD]  
 - **2.3 Todo App** → [Link TBD]  
 - **2.4 Decimal to Binary Converter** → [Link TBD]  
 
+---
+
+## 3. ☎️ Telephone Number Validator
+**Origin:** FCC Telephone Validator.  
+**Project:** [Link TBD]  
+**What I learned:** *TBD*  
+
 - **3.1 Spam Filter** → [Link TBD]  
 - **3.2 Number Sorter** → [Link TBD]  
 - **3.3 Statistics Calculator** → [Link TBD]  
-- **3.4 Spreadsheet** → [Link TBD]  
+- **3.4 Spreadsheet** → [Link TBD]
+
+---
+
+## 4. 💰 Cash Register
+**Origin:** FCC Cash Register.  
+**Project:** [Link TBD]  
+**What I learned:** *TBD*  
 
 - **4.1 Shopping Cart** → [Link TBD]  
 - **4.2 Platformer Game** → [Link TBD]  
-- **4.3 Dice Game** → [Link TBD]  
+- **4.3 Dice Game** → [Link TBD]
+
+---
+
+## 5. 🧙 RPG Creature Search App
+**Origin:** FCC final project (custom expansion).  
+**Project:** [Link TBD]  
+**What I learned:** *TBD*  
 
 - **5.1 Authors Page** → [Link TBD]  
 - **5.2 Forum Leaderboard** → [Link TBD]  
