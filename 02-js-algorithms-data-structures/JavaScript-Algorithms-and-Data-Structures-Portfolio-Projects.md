@@ -64,8 +64,14 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Date Formatter](https://codepen.io/Mike-MacDonagh/pen/RNraPar)  
   *Learned: FCC JS 2nd section project; rebuilt into a CRT-themed utility with boot-up typewriter effect, green phosphor glow, scanlines, and flicker; added extra formats (ISO 8601, UNIX timestamp, weekday, locale long); made live formats auto-update like a terminal command.*  
 
-- **2.2 Football Team Cards** → [Link TBD]  
-- **2.3 Todo App** → [Link TBD]  
+- **2.2 Football Team Cards** → *HABS Roster Cards*  
+  [Montreal Canadiens Cards](https://codepen.io/Mike-MacDonagh/pen/RNrRjvQ)  
+  *Learned: took the FCC Football Team Cards project and re-skinned it for the Montreal Canadiens… swapped football positions for hockey roles… added a top-centered Habs logo… pulled player headshots from my jsDelivr CDN with a fallback image and versioned cache-busting… added a captain badge, nickname filter, and position filters… styled everything in Habs red/blue/white to match the brand.*  
+
+- **2.3 To-Do App** → *Mixtape Playlist Maker*  
+  [Playlist Maker](https://codepen.io/Mike-MacDonagh/pen/pvgNprM)  
+  *Learned: took FCC’s basic To-Do app logic (add, edit, delete, localStorage) and flipped it into something I’d actually use — a playlist builder; swapped “tasks” for tracks (title, artist, notes/links); styled it like a Spotify clone but in my brand (purple + dark grey); added search bar to filter tracks; future plans include album art, audio previews from jsDelivr CDN, and drag-and-drop reordering.*  
+
 - **2.4 Decimal to Binary Converter** → [Link TBD]  
 
 ---
