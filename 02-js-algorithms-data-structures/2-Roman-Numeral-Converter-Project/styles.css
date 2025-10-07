@@ -1,0 +1,103 @@
+/* CSS — Roman variant of my PhiloDuel theme */
+:root{
+  --papyrus: #f4ecd8;
+  --papyrus-ink: #2b2419;
+  --marble: #fffdf7;
+  --bronze: #a37a3f;
+  --bronze-dark:#7a5a2d;
+  --imperial:#7a1f1f;           /* dark red */
+  --ink-muted:#6e5a3a;
+  --shadow: rgba(0,0,0,0.15);
+  --border: rgba(43,36,25,0.2);
+  --focus:#3b82f6;
+  --ok:#1a7f37;
+  --warn:#a15b02;
+  --err:#7a1f1f;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: "Cinzel", Georgia, serif;
+  color:var(--papyrus-ink);
+  background: radial-gradient(ellipse at top, #faf5e6 0%, #efe7d5 48%, #e8dfc9 100%);
+}
+
+.wrap{ max-width: 720px; margin: 0 auto; padding: 24px; }
+
+.header{
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 20px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.35)),
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="40"><text x="0" y="28" font-family="serif" font-size="28" opacity="0.06">SPQR • SPQR • SPQR</text></svg>') repeat;
+  box-shadow: 0 10px 24px var(--shadow);
+  position: relative;
+}
+
+.title{ margin: 0 0 6px; font-size: 2.1rem; letter-spacing: .5px; }
+.title span{ color: var(--imperial); text-shadow: 0 1px 0 #fff; }
+.subtitle{ margin: 4px 0 0; color: var(--ink-muted); font-size: 0.98rem; }
+
+.card{
+  margin-top:16px;
+  background: var(--marble);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 14px var(--shadow);
+}
+
+.label{ font-weight: 700; color: var(--bronze-dark); }
+
+.input-row{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+input#number{
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  font-size: 1rem;
+}
+input#number:focus{ outline: 3px solid var(--focus); outline-offset: 1px; }
+
+.btn{
+  appearance:none; border:none; cursor:pointer;
+  padding: 12px 18px;
+  background: linear-gradient(180deg, #fff, #f0e6cf);
+  border: 1px solid var(--border);
+  color: var(--papyrus-ink);
+  font-weight: 800;
+  border-radius: 999px;
+  box-shadow: 0 6px 14px var(--shadow);
+  transition: transform .08s ease, box-shadow .2s ease;
+}
+.btn:hover{ transform: translateY(-1px); }
+.btn:active{ transform: translateY(0); box-shadow: 0 3px 8px var(--shadow); }
+
+.output{
+  margin-top: 14px;
+  min-height: 58px;
+  display:flex; align-items:center;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.65), rgba(255,255,255,0.35)),
+    #fffdf7;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+
+.output.ok{ color: var(--imperial); }
+.output.warn{ color: var(--warn); }
+.output.err{ color: var(--err); }
+
