@@ -5,28 +5,15 @@ const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
 function decimalToBinary(input){
-    const inputs = [];
-    const quotients = [];
-    const remainders = [];
-
+    let binary = "";
     if(input === 0){
-        result.innerText = "0";
-        return;
+        binary = "0";
     }
-    
-    while (input > 0) {
-        const quotient = Math.floor(input / 2);
-        const remainder = input % 2;
-        inputs.push(input);
-        quotients.push(quotient);
-        remainders.push(remainder);
-        input = quotient;
+    while(input > 0){
+        binary = (input %) 2 + binary;
+        input = Math.floor(input / 2);
     }
-    console.log("inputs: ", inputs);
-    console.log("quotients: ", quotients);
-    console.log("remainders: ", remainders);
-
-    result.innerText = remainders.reverse().join("");
+    result.innerText = binary;
 };
 
 const checkUserInput = () => {
