@@ -72,7 +72,9 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Playlist Maker](https://codepen.io/Mike-MacDonagh/pen/pvgNprM)  
   *Learned: took FCC’s basic To-Do app logic (add, edit, delete, localStorage) and flipped it into something I’d actually use — a playlist builder; swapped “tasks” for tracks (title, artist, notes/links); styled it like a Spotify clone but in my brand (purple + dark grey); added search bar to filter tracks; future plans include album art, audio previews from jsDelivr CDN, and drag-and-drop reordering.*  
 
-- **2.4 Decimal to Binary Converter** → [Link TBD]  
+- **2.4 Decimal to Binary Converter** → *Futuristic Number Translator*  
+  [Decimal → Binary Converter](https://codepen.io/Mike-MacDonagh/pen/LEGWaPr)  
+  *Learned: rebuilt FCC’s recursive converter into a clean, robotic-themed UI with neon cyan accents; added full input sanitization so you can’t enter minus numbers, decimals, or scientific notation — only whole numbers 0 and up; added a call-stack animation when input is 5 to show how recursion unwinds; refined layout into a flat futuristic card design for clarity and style.*  
 
 ---
 
