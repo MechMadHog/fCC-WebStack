@@ -55,10 +55,16 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ---
 
-## 2. 🔢 Roman Numeral Converter
-**Origin:** FCC Roman Numeral Converter.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
+## 2. 🔢 Roman Numeral Converter  
+**Origin:** FCC Roman Numeral Converter  
+**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/ZYQeZBm)  
+**What I learned:**  
+- Followed all FCC user stories exactly — handling invalid, low, and high numbers with clear messages  
+- Built a clean conversion loop using a value/symbol map instead of nested conditionals  
+- Reused validation and DOM logic from previous projects (Palindrome Checker, Binary Converter)  
+- Learned how small helper functions keep logic readable and test-safe  
+- Re-skinned my Greek “PhiloDuel” theme into a Roman variant — bronze, marble, deep red, and Cinzel type for an imperial look  
+
 
 - **2.1 Date Formatter** → *Retro Date Utility*  
   [Date Formatter](https://codepen.io/Mike-MacDonagh/pen/RNraPar)  
@@ -83,7 +89,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Project:** [Link TBD]  
 **What I learned:** *TBD*  
 
-- **3.1 Spam Filter** → [Link TBD]  
+- **3.2 Troll Detector** → *Comment Moderation Terminal*  
+  [Troll Detector](https://codepen.io/Mike-MacDonagh/pen/ogbWBPV)  
+  *Learned: evolved the FCC spam filter logic into a regex-based “troll detector” that scores toxicity and highlights problem phrases; designed with a retro CRT moderation console theme (green phosphor glow, scanlines, neon edges); added multi-category detection — profanity, insults, threats, shout typing, punctuation spam, elongated words, emoji floods, and link/mention bait — all rendered with heat scoring and live text highlighting.*
+ 
 - **3.2 Number Sorter** → [Link TBD]  
 - **3.3 Statistics Calculator** → [Link TBD]  
 - **3.4 Spreadsheet** → [Link TBD]
