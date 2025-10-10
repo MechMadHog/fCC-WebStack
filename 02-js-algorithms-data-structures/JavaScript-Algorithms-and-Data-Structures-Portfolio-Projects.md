@@ -89,11 +89,14 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Project:** [Link TBD]  
 **What I learned:** *TBD*  
 
-- **3.2 Troll Detector** → *Comment Moderation Terminal*  
+- **3.2 Spam Filter** → *Comment Moderation Terminal*  
   [Troll Detector](https://codepen.io/Mike-MacDonagh/pen/ogbWBPV)  
   *Learned: evolved the FCC spam filter logic into a regex-based “troll detector” that scores toxicity and highlights problem phrases; designed with a retro CRT moderation console theme (green phosphor glow, scanlines, neon edges); added multi-category detection — profanity, insults, threats, shout typing, punctuation spam, elongated words, emoji floods, and link/mention bait — all rendered with heat scoring and live text highlighting.*
  
-- **3.2 Number Sorter** → [Link TBD]  
+- **3.3 Number Sorter** → *Synthwave Sorter*  
+  [CodePen](https://codepen.io/Mike-MacDonagh/pen/XJXgdPX)  
+  *Learned: applied number-sorting logic (Bubble, Selection, and Insertion Sort) to real data — sorting actual synthwave tracks by title, artist, or album. Reinforced algorithmic thinking by translating numeric comparison into string-based `localeCompare`, demonstrating loops, swaps, and control flow through a neon UI inspired by Sega CRT and vaporwave aesthetics.*
+  
 - **3.3 Statistics Calculator** → [Link TBD]  
 - **3.4 Spreadsheet** → [Link TBD]
 
