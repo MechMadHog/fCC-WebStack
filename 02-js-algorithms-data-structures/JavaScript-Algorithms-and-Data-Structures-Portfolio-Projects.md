@@ -93,11 +93,14 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Troll Detector](https://codepen.io/Mike-MacDonagh/pen/ogbWBPV)  
   *Learned: evolved the FCC spam filter logic into a regex-based “troll detector” that scores toxicity and highlights problem phrases; designed with a retro CRT moderation console theme (green phosphor glow, scanlines, neon edges); added multi-category detection — profanity, insults, threats, shout typing, punctuation spam, elongated words, emoji floods, and link/mention bait — all rendered with heat scoring and live text highlighting.*
  
-- **3.3 Number Sorter** → *Synthwave Sorter*  
-  [CodePen](https://codepen.io/Mike-MacDonagh/pen/XJXgdPX)  
+- **3.3 Number Sorter** → *Mixtape Sorter*  
+  [Mixtape Sorter](https://codepen.io/Mike-MacDonagh/pen/XJXgdPX)  
   *Learned: applied number-sorting logic (Bubble, Selection, and Insertion Sort) to real data — sorting actual synthwave tracks by title, artist, or album. Reinforced algorithmic thinking by translating numeric comparison into string-based `localeCompare`, demonstrating loops, swaps, and control flow through a neon UI inspired by Sega CRT and vaporwave aesthetics.*
   
-- **3.3 Statistics Calculator** → [Link TBD]  
+- **3.3 Statistics Calculator** → *D&D Dice Lab*  
+  [D&D Dice Lab](https://codepen.io/Mike-MacDonagh/pen/PwZjgjZ)  
+  *Learned: same stats engine under the hood — I parse dice like `3d6` or `1d20+5` into numbers, then run mean/median/mode, range, variance, and SD exactly like my calculator. Added a per-die vs per-pool toggle, DC success and d20 crit rates, a friendly instructions modal, and custom “scribble” radio buttons — all in a handwritten copybook UI that matches my Gradebook vibe.*
+
 - **3.4 Spreadsheet** → [Link TBD]
 
 ---
