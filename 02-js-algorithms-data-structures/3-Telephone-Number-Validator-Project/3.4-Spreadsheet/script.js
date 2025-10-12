@@ -21,6 +21,11 @@ console.log(spreadsheetFunctions);
 const range = (start, end) => Array(end - start + 1).fill(start).map((element, index) => element + index);
 const charRange = (start, end) =>  range(start.charCodeAt(0), end.charCodeAt(0)).map(code => String.fromCharCode(code));
 
+const evalFormula = (x, cells) => {
+    const idToText = id => cells.find(cell => cell.id === id).value;
+    const rangeRegex = /([A-J])([1-9][0-9]?):([A-J])([1-9][0-9]?)/gi;
+}
+
 window.onload = () => {
     const container = document.getElementById("container");
     const createLabel = name => {
@@ -47,4 +52,7 @@ window.onload = () => {
 const update = event => {
     const element = event.target;
     const value = element.value.replace(/\s/g,"");
+     if(!value.includes(element.id) && value[0] === "="){
+    
+    }
 }
