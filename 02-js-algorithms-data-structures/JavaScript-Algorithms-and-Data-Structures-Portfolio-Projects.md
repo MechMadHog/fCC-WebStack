@@ -15,7 +15,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ## 1. 🔁 Palindrome Checker
 **Origin:** FCC Palindrome Checker  
-**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/qEbZBaR)  
+**Project:** [Palindrome Checker](https://codepen.io/Mike-MacDonagh/pen/qEbZBaR)  
 **What I learned:**
 - Translate user stories into exact elements and behaviors: `#text-input`, `#check-btn`, `#result`, alert on empty input
 - Clean input with a simple regex to ignore punctuation, spaces, case... reuse skills from Calorie Counter
@@ -57,7 +57,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ## 2. 🔢 Roman Numeral Converter  
 **Origin:** FCC Roman Numeral Converter  
-**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/ZYQeZBm)  
+**Project:** [RomaNumeral Converter](https://codepen.io/Mike-MacDonagh/pen/ZYQeZBm)  
 **What I learned:**  
 - Followed all FCC user stories exactly — handling invalid, low, and high numbers with clear messages  
 - Built a clean conversion loop using a value/symbol map instead of nested conditionals  
@@ -101,7 +101,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [D&D Dice Lab](https://codepen.io/Mike-MacDonagh/pen/PwZjgjZ)  
   *Learned: same stats engine under the hood — I parse dice like `3d6` or `1d20+5` into numbers, then run mean/median/mode, range, variance, and SD exactly like my calculator. Added a per-die vs per-pool toggle, DC success and d20 crit rates, a friendly instructions modal, and custom “scribble” radio buttons — all in a handwritten copybook UI that matches my Gradebook vibe.*
 
-- **3.4 Spreadsheet** → [Link TBD]
+- **3.4 Spreadsheet** → *Budget Tracker*  
+  [Budget Tracker](https://codepen.io/Mike-MacDonagh/pen/LEGzPxY)  
+  *Learned: expanded the original FCC Spreadsheet logic into a fully functional Budget Tracker — retaining its regex-based formula engine (`=sum(A1:B3)` parsing, range expansion, and operator precedence) while applying it to real-world financial data. Built using pure HTML, CSS, and Vanilla JS, it generates a dynamic A–J × 30 grid where each cell can accept plain values or formulas. Added a seeded layout for Income, Expenses, and Summary totals, along with localStorage persistence for saving and loading sessions. Reinforced DOM creation, event-driven recalculation, recursion, and regex parsing — demonstrating how spreadsheet logic can power practical apps without any frameworks or external libraries.*
+
 
 ---
 
