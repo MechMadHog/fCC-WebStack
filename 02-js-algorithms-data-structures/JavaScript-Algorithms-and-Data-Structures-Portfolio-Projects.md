@@ -25,6 +25,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 - Accessibility first: labeled inputs, `aria-live` result, high contrast focus styles
 - Light “Alice in Wonderland” theme while keeping readability and contrast strong
 
+
 - **1.1 Pyramid Generator →** *Retro CRT Pyramid Console*  
   [Pyramid Generator](https://codepen.io/Mike-MacDonagh/pen/qEOvBap)  
   *Learned: JS basics (loops, strings), DOM buttons to run code, `<pre>` to preserve spacing, height slider & character input, plus an inverted toggle—all wrapped in an 80s/90s CRT theme.*
@@ -86,8 +87,14 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ## 3. ☎️ Telephone Number Validator
 **Origin:** FCC Telephone Validator.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
+**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/zxrPrEE)  
+**What I learned:**  
+- Followed all FCC user stories exactly — including alerts, clear/reset functionality, and accurate valid/invalid feedback  
+- Built a reliable regex to handle every U.S. number format (`555-555-5555`, `(555)555-5555`, `1 (555) 555-5555`, etc.)  
+- Reused validation and DOM logic from earlier projects (Roman Numeral Converter, Spam Filter)  
+- Practiced event-driven programming with multiple buttons and Enter key handling  
+- Styled with my signature **Retro CRT theme** — neon green phosphor text, scanlines, vignette, and glowing diagnostic-terminal feel  
+
 
 - **3.2 Spam Filter** → *Comment Moderation Terminal*  
   [Troll Detector](https://codepen.io/Mike-MacDonagh/pen/ogbWBPV)  
@@ -113,7 +120,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Project:** [Link TBD]  
 **What I learned:** *TBD*  
 
-- **4.1 Shopping Cart** → [Link TBD]  
+- **4.1 Shopping Cart** → *Vans Storefront*  
+  [Vans Shopping Cart](https://codepen.io/Mike-MacDonagh/pen/yyePoMO)  
+  *Learned: built a fully functional shopping cart from scratch, themed around Vans (my go-to shoes). Implemented product rendering, live subtotal/tax/total updates, and item counting in pure JavaScript. Each card loads 320×320 product images via my jsDelivr CDN and supports fullscreen zoom for detailed viewing. Designed a centered, responsive 4-column grid with flex-grid alignment and a smart `:has()` rule to collapse the layout when the cart is hidden. Reinforced DOM manipulation, event delegation, and dynamic UI state management — turning a basic cart demo into a polished, real-world storefront simulation.*
+
 - **4.2 Platformer Game** → [Link TBD]  
 - **4.3 Dice Game** → [Link TBD]
 
