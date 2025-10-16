@@ -184,6 +184,3 @@ cartBtn.addEventListener("click", () => {
 });
 
 clearCartBtn.addEventListener("click", cart.clearCart.bind(cart));
-
-
-
