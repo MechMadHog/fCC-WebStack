@@ -124,7 +124,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Vans Shopping Cart](https://codepen.io/Mike-MacDonagh/pen/yyePoMO)  
   *Learned: built a fully functional shopping cart from scratch, themed around Vans (my go-to shoes). Implemented product rendering, live subtotal/tax/total updates, and item counting in pure JavaScript. Each card loads 320×320 product images via my jsDelivr CDN and supports fullscreen zoom for detailed viewing. Designed a centered, responsive 4-column grid with flex-grid alignment and a smart `:has()` rule to collapse the layout when the cart is hidden. Reinforced DOM manipulation, event delegation, and dynamic UI state management — turning a basic cart demo into a polished, real-world storefront simulation.*
 
-- **4.2 Platformer Game** → [Link TBD]  
+- **4.2 Platformer Game** → *Mouse Maze*  
+  [Mouse Maze](https://codepen.io/Mike-MacDonagh/pen/myVpmxJ)  
+  *Learned: started from FCC 4.2 Platformer and shipped an emoji-first prototype to focus on core mechanics instead of art. Built a vanilla JS canvas engine with a TILE grid, AABB collisions, portals, multi-room navigation, hearts for lives, traps, and cheese collectibles. Added diagonal movement normalization, a HUD overlay, mobile D-pad controls, and cooldowns for hits and teleports. Implemented emoji rendering with shape fallbacks if the system font cannot draw them. Kept files modular with zero inline JS and minimal comments. This is my third game overall and second in JavaScript... the first was a Flash platformer in ActionScript.*
+
 - **4.3 Dice Game** → [Link TBD]
 
 ---
