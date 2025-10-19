@@ -13,8 +13,8 @@ const rulesBtn = document.getElementById("rules-btn");
 let diceValuesArr = [];
 let isModalShowing = false;
 let score = 0;
-let round = 1; 
-let rolls = 0; 
+let round = 1;
+let rolls = 0;
 
 const rollDice = () => {
   diceValuesArr = [];
@@ -40,24 +40,12 @@ const updateRadioOption = (index, score) => {
   scoreSpans[index].textContent = `, score = ${score}`;
 };
 
-function updateScore(selectedValueStr, achievedId) {
-  const selectedValue = Number(selectedValueStr) || 0;
-  score += selectedValue;
+const updateScore = (selectedValue, achieved) => {
+  score += parseInt(selectedValue);
   totalScoreElement.textContent = score;
 
-  const li = document.createElement("li");
-  li.textContent = `${achievedId} : ${selectedValueStr}`;
-  scoreHistory.appendChild(li);
-}
-
-keepScoreBtn.addEventListener("click", () => {
-  const chosen = [...scoreInputs].find(input => input.checked && !input.disabled);
-  if (!chosen) {
-    alert("Please select a score option first.");
-    return;
-  }
-  updateScore(chosen.value, chosen.id);
-});
+  scoreHistory.innerHTML += `<li>${achieved} : ${selectedValue}</li>`;
+};
 
 const getHighestDuplicates = (arr) => {
   const counts = {};
@@ -106,6 +94,21 @@ const resetRadioOptions = () => {
   });
 };
 
+const resetGame = () => {
+  listOfAllDice.forEach(die => die.textContent = "0");
+  scoreHistory.innerHTML = "";
+
+  score = 0;
+  rolls = 0;
+  round = 1;
+
+  totalScoreElement.textContent = score;
+  rollsElement.textContent = rolls;
+  roundElement.textContent = round;
+
+  resetRadioOptions();
+};
+
 rollDiceBtn.addEventListener("click", () => {
   if (rolls === 3) {
     alert("You have made three rolls this round. Please select a score.");
@@ -129,3 +132,34 @@ rulesBtn.addEventListener("click", () => {
     rulesContainer.style.display = "none";
   }
 });
+
+keepScoreBtn.addEventListener("click", () => {
+  let selectedValue;
+  let achieved;
+
+  for (const radioButton of scoreInputs) {
+    if (radioButton.checked) {
+      selectedValue = radioButton.value;
+      achieved = radioButton.id;
+      break;
+    }
+  }
+
+  if (selectedValue) {
+    rolls = 0;
+    round++;
+    updateStats();
+    resetRadioOptions();
+    updateScore(selectedValue, achieved);
+    if (round > 6) {
+      setTimeout(() => {
+        alert(`Game Over! Your total score is ${score}`);
+        resetGame();
+      }, 500);
+    }
+  } else {
+    alert("Please select an option or roll the dice");
+  }
+});
+
+
