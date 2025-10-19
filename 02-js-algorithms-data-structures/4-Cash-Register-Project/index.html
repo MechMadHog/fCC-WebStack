@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Cash Register</h1>
+    <div class="price-row">
+      <label for="cash">Customer Cash</label>
+      <input id="cash" type="number" step="0.01" placeholder="e.g. 20.00" />
+      <button id="purchase-btn">Purchase</button>
+    </div>
+    <p id="change-due" class="change-line">—</p>
+    <details>
+      <summary>Debug / Current Settings</summary>
+      <p><strong>Price:</strong> <span id="dbg-price"></span></p>
+      <p><strong>Drawer (cid):</strong></p>
+      <pre id="dbg-cid"></pre>
+    </details>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
