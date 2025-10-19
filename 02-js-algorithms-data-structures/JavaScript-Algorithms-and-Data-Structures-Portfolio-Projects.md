@@ -128,7 +128,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
   [Mouse Maze](https://codepen.io/Mike-MacDonagh/pen/myVpmxJ)  
   *Learned: started from FCC 4.2 Platformer and shipped an emoji-first prototype to focus on core mechanics instead of art. Built a vanilla JS canvas engine with a TILE grid, AABB collisions, portals, multi-room navigation, hearts for lives, traps, and cheese collectibles. Added diagonal movement normalization, a HUD overlay, mobile D-pad controls, and cooldowns for hits and teleports. Implemented emoji rendering with shape fallbacks if the system font cannot draw them. Kept files modular with zero inline JS and minimal comments. This is my third game overall and second in JavaScript... the first was a Flash platformer in ActionScript.*
 
-- **4.3 Dice Game** → [Link TBD]
+- **4.3 Dice Game** → *Lucky Roll*  
+  [Lucky Roll](https://codepen.io/Mike-MacDonagh/pen/zxrpXaZ)  
+  *Learned: built from scratch following the FCC 4.3 Dice Game project. Implemented randomized dice rolls using `Math.random()` and dynamic DOM updates for each face. Added a simple scoring system that rewards doubles and penalizes mismatches, along with a live credit counter. Focused on clean, modular JavaScript — handling state, event listeners, and result evaluation in separate functions. This project served as the foundation for the logic later used in my Casino Slot Machine, proving how dice mechanics can scale into larger randomized game systems.*
+
 
 ---
 
