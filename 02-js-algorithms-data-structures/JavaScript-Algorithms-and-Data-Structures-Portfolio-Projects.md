@@ -115,10 +115,18 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ---
 
-## 4. 💰 Cash Register
+## 4. 💰 Cash Register  
 **Origin:** FCC Cash Register.  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
+**Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/dPGJEWa)  
+**What I learned:**  
+- Used penny-safe arithmetic by converting dollars to cents with `toCents`/`fromCents` to avoid floating-point drift  
+- Built a greedy change maker over a sorted `DENOMS` table with a drawer map, yielding exact denomination pairs  
+- Covered all FCC statuses: `OPEN` with breakdown, `CLOSED` when the drawer matches change exactly, `INSUFFICIENT_FUNDS` when total is short or exact change can’t be made, plus the exact-cash short-circuit  
+- Created a compact `buildStatusLine` formatter for outputs like `TWENTY: $40 ONE: $3`  
+- Kept business logic pure via `getChange(price, cash, cid)` for easy testing and reuse  
+- Added basic UI validation and messaging (not enough money alert, exact-cash message)  
+- Included a `<details>` debug panel to live-inspect `price` and `cid` for quicker troubleshooting
+
 
 - **4.1 Shopping Cart** → *Vans Storefront*  
   [Vans Shopping Cart](https://codepen.io/Mike-MacDonagh/pen/yyePoMO)  
@@ -140,7 +148,10 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Project:** [Link TBD]  
 **What I learned:** *TBD*  
 
-- **5.1 Authors Page** → [Link TBD]  
+- **5.1 Authors Page** → *Cyberpunk Media Fetch*  
+  [Cyberpunk Media Fetch](https://codepen.io/Mike-MacDonagh/pen/jEWZbRQ)  
+  *Learned: evolved the FCC 5.1 Authors Page fetch logic into something personal — a neon-blue/purple cyberpunk media index powered by the Wikipedia REST API. Instead of author data, I pulled real summaries and images for films and series like Blade Runner, Altered Carbon, Dredd, and Alita: Battle Angel. Added filters, shuffle, and load-more interactions for a dynamic, scrollable UI. Focused on clean API handling, async/await structure, and modular rendering — blending my passion for cyberpunk aesthetics with practical data fetching and DOM manipulation.*
+
 - **5.2 Forum Leaderboard** → [Link TBD]  
 
 ---
