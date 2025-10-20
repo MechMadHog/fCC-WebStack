@@ -1,4 +1,4 @@
-# JavaScript Algorithms and Data Structures — Portfolio Projects
+# JavaScript Algorithms and Data Structures, Portfolio Projects
 
 **FreeCodeCamp Certificate 02: JavaScript Algorithms and Data Structures (In Progress)**  
 [View Certificate](#)  
@@ -6,7 +6,7 @@
 🧩 This is my second FreeCodeCamp certificate.  
 Here the focus shifts from *design and layout* to **pure programming**: solving problems, building algorithms, and implementing data structures with JavaScript.  
 
-Many of these projects will start small and practical — validators, converters, and calculators — but the goal, as with my first certificate, is to **expand and customize** each one into something that feels like a true portfolio piece.  
+Many of these projects will start small and practical, validators, converters, and calculators, but the goal, as with my first certificate, is to **expand and customize** each one into something that feels like a true portfolio piece.  
 
 ## 📚 Sub-Projects
 Alongside the main certificate projects, I’ll be creating smaller apps and experiments with JavaScript:  
@@ -60,11 +60,11 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Origin:** FCC Roman Numeral Converter  
 **Project:** [RomaNumeral Converter](https://codepen.io/Mike-MacDonagh/pen/ZYQeZBm)  
 **What I learned:**  
-- Followed all FCC user stories exactly — handling invalid, low, and high numbers with clear messages  
+- Followed all FCC user stories exactly, handling invalid, low, and high numbers with clear messages  
 - Built a clean conversion loop using a value/symbol map instead of nested conditionals  
 - Reused validation and DOM logic from previous projects (Palindrome Checker, Binary Converter)  
 - Learned how small helper functions keep logic readable and test-safe  
-- Re-skinned my Greek “PhiloDuel” theme into a Roman variant — bronze, marble, deep red, and Cinzel type for an imperial look  
+- Re-skinned my Greek “PhiloDuel” theme into a Roman variant, bronze, marble, deep red, and Cinzel type for an imperial look  
 
 
 - **2.1 Date Formatter** → *Retro Date Utility*  
@@ -77,11 +77,11 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 - **2.3 To-Do App** → *Mixtape Playlist Maker*  
   [Playlist Maker](https://codepen.io/Mike-MacDonagh/pen/pvgNprM)  
-  *Learned: took FCC’s basic To-Do app logic (add, edit, delete, localStorage) and flipped it into something I’d actually use — a playlist builder; swapped “tasks” for tracks (title, artist, notes/links); styled it like a Spotify clone but in my brand (purple + dark grey); added search bar to filter tracks; future plans include album art, audio previews from jsDelivr CDN, and drag-and-drop reordering.*  
+  *Learned: took FCC’s basic To-Do app logic (add, edit, delete, localStorage) and flipped it into something I’d actually use, a playlist builder; swapped “tasks” for tracks (title, artist, notes/links); styled it like a Spotify clone but in my brand (purple + dark grey); added search bar to filter tracks; future plans include album art, audio previews from jsDelivr CDN, and drag-and-drop reordering.*  
 
 - **2.4 Decimal to Binary Converter** → *Futuristic Number Translator*  
   [Decimal → Binary Converter](https://codepen.io/Mike-MacDonagh/pen/LEGWaPr)  
-  *Learned: rebuilt FCC’s recursive converter into a clean, robotic-themed UI with neon cyan accents; added full input sanitization so you can’t enter minus numbers, decimals, or scientific notation — only whole numbers 0 and up; added a call-stack animation when input is 5 to show how recursion unwinds; refined layout into a flat futuristic card design for clarity and style.*  
+  *Learned: rebuilt FCC’s recursive converter into a clean, robotic-themed UI with neon cyan accents; added full input sanitization so you can’t enter minus numbers, decimals, or scientific notation, only whole numbers 0 and up; added a call-stack animation when input is 5 to show how recursion unwinds; refined layout into a flat futuristic card design for clarity and style.*  
 
 ---
 
@@ -89,28 +89,28 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 **Origin:** FCC Telephone Validator.  
 **Project:** [CodePen](https://codepen.io/Mike-MacDonagh/pen/zxrPrEE)  
 **What I learned:**  
-- Followed all FCC user stories exactly — including alerts, clear/reset functionality, and accurate valid/invalid feedback  
+- Followed all FCC user stories exactly, including alerts, clear/reset functionality, and accurate valid/invalid feedback  
 - Built a reliable regex to handle every U.S. number format (`555-555-5555`, `(555)555-5555`, `1 (555) 555-5555`, etc.)  
 - Reused validation and DOM logic from earlier projects (Roman Numeral Converter, Spam Filter)  
 - Practiced event-driven programming with multiple buttons and Enter key handling  
-- Styled with my signature **Retro CRT theme** — neon green phosphor text, scanlines, vignette, and glowing diagnostic-terminal feel  
+- Styled with my signature **Retro CRT theme**, neon green phosphor text, scanlines, vignette, and glowing diagnostic-terminal feel  
 
 
 - **3.2 Spam Filter** → *Comment Moderation Terminal*  
   [Troll Detector](https://codepen.io/Mike-MacDonagh/pen/ogbWBPV)  
-  *Learned: evolved the FCC spam filter logic into a regex-based “troll detector” that scores toxicity and highlights problem phrases; designed with a retro CRT moderation console theme (green phosphor glow, scanlines, neon edges); added multi-category detection — profanity, insults, threats, shout typing, punctuation spam, elongated words, emoji floods, and link/mention bait — all rendered with heat scoring and live text highlighting.*
+  *Learned: evolved the FCC spam filter logic into a regex-based “troll detector” that scores toxicity and highlights problem phrases; designed with a retro CRT moderation console theme (green phosphor glow, scanlines, neon edges); added multi-category detection, profanity, insults, threats, shout typing, punctuation spam, elongated words, emoji floods, and link/mention bait, all rendered with heat scoring and live text highlighting.*
  
 - **3.3 Number Sorter** → *Mixtape Sorter*  
   [Mixtape Sorter](https://codepen.io/Mike-MacDonagh/pen/XJXgdPX)  
-  *Learned: applied number-sorting logic (Bubble, Selection, and Insertion Sort) to real data — sorting actual synthwave tracks by title, artist, or album. Reinforced algorithmic thinking by translating numeric comparison into string-based `localeCompare`, demonstrating loops, swaps, and control flow through a neon UI inspired by Sega CRT and vaporwave aesthetics.*
+  *Learned: applied number-sorting logic (Bubble, Selection, and Insertion Sort) to real data, sorting actual synthwave tracks by title, artist, or album. Reinforced algorithmic thinking by translating numeric comparison into string-based `localeCompare`, demonstrating loops, swaps, and control flow through a neon UI inspired by Sega CRT and vaporwave aesthetics.*
   
 - **3.3 Statistics Calculator** → *D&D Dice Lab*  
   [D&D Dice Lab](https://codepen.io/Mike-MacDonagh/pen/PwZjgjZ)  
-  *Learned: same stats engine under the hood — I parse dice like `3d6` or `1d20+5` into numbers, then run mean/median/mode, range, variance, and SD exactly like my calculator. Added a per-die vs per-pool toggle, DC success and d20 crit rates, a friendly instructions modal, and custom “scribble” radio buttons — all in a handwritten copybook UI that matches my Gradebook vibe.*
+  *Learned: same stats engine under the hood, I parse dice like `3d6` or `1d20+5` into numbers, then run mean/median/mode, range, variance, and SD exactly like my calculator. Added a per-die vs per-pool toggle, DC success and d20 crit rates, a friendly instructions modal, and custom “scribble” radio buttons, all in a handwritten copybook UI that matches my Gradebook vibe.*
 
 - **3.4 Spreadsheet** → *Budget Tracker*  
   [Budget Tracker](https://codepen.io/Mike-MacDonagh/pen/LEGzPxY)  
-  *Learned: expanded the original FCC Spreadsheet logic into a fully functional Budget Tracker — retaining its regex-based formula engine (`=sum(A1:B3)` parsing, range expansion, and operator precedence) while applying it to real-world financial data. Built using pure HTML, CSS, and Vanilla JS, it generates a dynamic A–J × 30 grid where each cell can accept plain values or formulas. Added a seeded layout for Income, Expenses, and Summary totals, along with localStorage persistence for saving and loading sessions. Reinforced DOM creation, event-driven recalculation, recursion, and regex parsing — demonstrating how spreadsheet logic can power practical apps without any frameworks or external libraries.*
+  *Learned: expanded the original FCC Spreadsheet logic into a fully functional Budget Tracker, retaining its regex-based formula engine (`=sum(A1:B3)` parsing, range expansion, and operator precedence) while applying it to real-world financial data. Built using pure HTML, CSS, and Vanilla JS, it generates a dynamic A–J × 30 grid where each cell can accept plain values or formulas. Added a seeded layout for Income, Expenses, and Summary totals, along with localStorage persistence for saving and loading sessions. Reinforced DOM creation, event-driven recalculation, recursion, and regex parsing, demonstrating how spreadsheet logic can power practical apps without any frameworks or external libraries.*
 
 
 ---
@@ -130,7 +130,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 - **4.1 Shopping Cart** → *Vans Storefront*  
   [Vans Shopping Cart](https://codepen.io/Mike-MacDonagh/pen/yyePoMO)  
-  *Learned: built a fully functional shopping cart from scratch, themed around Vans (my go-to shoes). Implemented product rendering, live subtotal/tax/total updates, and item counting in pure JavaScript. Each card loads 320×320 product images via my jsDelivr CDN and supports fullscreen zoom for detailed viewing. Designed a centered, responsive 4-column grid with flex-grid alignment and a smart `:has()` rule to collapse the layout when the cart is hidden. Reinforced DOM manipulation, event delegation, and dynamic UI state management — turning a basic cart demo into a polished, real-world storefront simulation.*
+  *Learned: built a fully functional shopping cart from scratch, themed around Vans (my go-to shoes). Implemented product rendering, live subtotal/tax/total updates, and item counting in pure JavaScript. Each card loads 320×320 product images via my jsDelivr CDN and supports fullscreen zoom for detailed viewing. Designed a centered, responsive 4-column grid with flex-grid alignment and a smart `:has()` rule to collapse the layout when the cart is hidden. Reinforced DOM manipulation, event delegation, and dynamic UI state management, turning a basic cart demo into a polished, real-world storefront simulation.*
 
 - **4.2 Platformer Game** → *Mouse Maze*  
   [Mouse Maze](https://codepen.io/Mike-MacDonagh/pen/myVpmxJ)  
@@ -138,7 +138,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 - **4.3 Dice Game** → *Lucky Roll*  
   [Lucky Roll](https://codepen.io/Mike-MacDonagh/pen/zxrpXaZ)  
-  *Learned: built from scratch following the FCC 4.3 Dice Game project. Implemented randomized dice rolls using `Math.random()` and dynamic DOM updates for each face. Added a simple scoring system that rewards doubles and penalizes mismatches, along with a live credit counter. Focused on clean, modular JavaScript — handling state, event listeners, and result evaluation in separate functions. This project served as the foundation for the logic later used in my Casino Slot Machine, proving how dice mechanics can scale into larger randomized game systems.*
+  *Learned: built from scratch following the FCC 4.3 Dice Game project. Implemented randomized dice rolls using `Math.random()` and dynamic DOM updates for each face. Added a simple scoring system that rewards doubles and penalizes mismatches, along with a live credit counter. Focused on clean, modular JavaScript, handling state, event listeners, and result evaluation in separate functions. This project served as the foundation for the logic later used in my Casino Slot Machine, proving how dice mechanics can scale into larger randomized game systems.*
 
 
 ---
@@ -150,7 +150,7 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 - **5.1 Authors Page** → *Cyberpunk Media Fetch*  
   [Cyberpunk Media Fetch](https://codepen.io/Mike-MacDonagh/pen/jEWZbRQ)  
-  *Learned: evolved the FCC 5.1 Authors Page fetch logic into something personal — a neon-blue/purple cyberpunk media index powered by the Wikipedia REST API. Instead of author data, I pulled real summaries and images for films and series like Blade Runner, Altered Carbon, Dredd, and Alita: Battle Angel. Added filters, shuffle, and load-more interactions for a dynamic, scrollable UI. Focused on clean API handling, async/await structure, and modular rendering — blending my passion for cyberpunk aesthetics with practical data fetching and DOM manipulation.*
+  *Learned: evolved the FCC 5.1 Authors Page fetch logic into something personal... a neon-blue/purple cyberpunk media index powered by the Wikipedia REST API. Instead of author data, I pulled real summaries and images for films and series like Blade Runner, Altered Carbon, Dredd, and Alita: Battle Angel. Added filters, shuffle, and load-more interactions for a dynamic, scrollable UI. Focused on clean API handling, async/await structure, and modular rendering, blending my passion for cyberpunk aesthetics with practical data fetching and DOM manipulation.*
 
 - **5.2 Forum Leaderboard** → [Link TBD]  
 
@@ -167,4 +167,4 @@ This section will eventually summarize the **core skills** I developed across th
 ---
 
 ## 🚀 Next Step
-After this, I’ll move on to **Front End Development Libraries** — integrating JavaScript with frameworks and UI libraries to create full interactive web apps.
+After this, I’ll move on to **Front End Development Libraries**, integrating JavaScript with frameworks and UI libraries to create full interactive web apps.
