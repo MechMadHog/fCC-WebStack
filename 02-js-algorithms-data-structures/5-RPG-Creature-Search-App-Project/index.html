@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RPG Creature Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="app-title">RPG Creature Search</h1>
+    <!-- Search -->
+    <form id="search-form" class="search">
+      <input
+        id="search-input"
+        class="input"
+        type="text"
+        placeholder="Search by name or ID (e.g., Pyrolynx or 2)"
+        required
+        autocomplete="off"
+      />
+      <button id="search-button" type="submit" class="btn">Search</button>
+    </form>
+    <!-- Result -->
+    <section class="card">
+      <div class="header">
+        <img id="creature-image" alt="" class="sprite" />
+        <div class="title">
+          <h2 id="creature-name"></h2>
+          <p id="creature-id" class="muted"></p>
+        </div>
+      </div>
+      <div class="meta">
+        <span id="weight" class="pill"></span>
+        <span id="height" class="pill"></span>
+      </div>
+      <div class="types" id="types"></div>
+      <div class="stats">
+        <div class="stat"><span>HP</span><strong id="hp"></strong></div>
+        <div class="stat"><span>ATK</span><strong id="attack"></strong></div>
+        <div class="stat"><span>DEF</span><strong id="defense"></strong></div>
+        <div class="stat"><span>Sp.Atk</span><strong id="special-attack"></strong></div>
+        <div class="stat"><span>Sp.Def</span><strong id="special-defense"></strong></div>
+        <div class="stat"><span>SPD</span><strong id="speed"></strong></div>
+      </div>
+    </section>
+    <footer class="muted tiny">
+      <p>Data: freeCodeCamp RPG Creature API</p>
+    </footer>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>

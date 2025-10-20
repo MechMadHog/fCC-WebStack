@@ -1,7 +1,7 @@
 # JavaScript Algorithms and Data Structures, Portfolio Projects
 
 **FreeCodeCamp Certificate 02: JavaScript Algorithms and Data Structures (In Progress)**  
-[View Certificate](#)  
+[View Certificate](https://www.freecodecamp.org/certification/mechmadhog/javascript-algorithms-and-data-structures-v8)
 
 🧩 This is my second FreeCodeCamp certificate.  
 Here the focus shifts from *design and layout* to **pure programming**: solving problems, building algorithms, and implementing data structures with JavaScript.  
@@ -143,16 +143,27 @@ Alongside the main certificate projects, I’ll be creating smaller apps and exp
 
 ---
 
-## 5. 🧙 RPG Creature Search App
-**Origin:** FCC final project (custom expansion).  
-**Project:** [Link TBD]  
-**What I learned:** *TBD*  
+## 5. 🧙 RPG Creature Search App  
+**Origin:** FCC RPG Creature Search App (final project).  
+**Project:** [RPG Creature Search](https://codepen.io/Mike-MacDonagh/pen/ZYQrJmW)  
+**What I learned:**  
+- Built an API-driven search app that fetches live creature data by **name or ID** from the FCC RPG Creature API  
+- Practiced **async/await** with error handling and `try/catch` — showing `"Creature not found"` for invalid entries  
+- Structured the UI into reusable update functions (`setBasics`, `setStats`, `setTypes`) for clean DOM control  
+- Dynamically clears and rebuilds **type elements** (`FIRE`, `WATER`, `ROCK`, etc.) between searches  
+- Implemented flexible parsing to handle both numeric IDs and string names case-insensitively  
+- Designed a **neon cyberpunk interface** with blue–purple gradients, glowing inputs, and retro “Press Start 2P” typography  
+- Reinforced integration of **fetch + DOM updates**, asynchronous logic, and error feedback within a cohesive visual design  
+
 
 - **5.1 Authors Page** → *Cyberpunk Media Fetch*  
   [Cyberpunk Media Fetch](https://codepen.io/Mike-MacDonagh/pen/jEWZbRQ)  
   *Learned: evolved the FCC 5.1 Authors Page fetch logic into something personal... a neon-blue/purple cyberpunk media index powered by the Wikipedia REST API. Instead of author data, I pulled real summaries and images for films and series like Blade Runner, Altered Carbon, Dredd, and Alita: Battle Angel. Added filters, shuffle, and load-more interactions for a dynamic, scrollable UI. Focused on clean API handling, async/await structure, and modular rendering, blending my passion for cyberpunk aesthetics with practical data fetching and DOM manipulation.*
 
-- **5.2 Forum Leaderboard** → [Link TBD]  
+- **5.2 Forum Leaderboard** → *fCC Forum Leaderboard*  
+  [fCC Forum Leaderboard](https://codepen.io/Mike-MacDonagh/pen/QwyQgXZ)  
+  *Learned: built a live leaderboard that fetches the latest topics from the freeCodeCamp forum via the `latest.json` endpoint. Implemented async/await for clean data retrieval and destructured nested JSON to extract only what was needed — topics, users, and key stats like views, replies, and categories. Created reusable helpers for relative time, view counts, and avatar rendering, with a defensive coding approach to handle missing data gracefully. Used a functional `.map(...).join("")` pattern to render dynamic table rows, keeping markup minimal and logic modular. Designed responsive styling and color-coded categories via CSS variables to make the data both clear and visually organized.*
+
 
 ---
 
