@@ -17,14 +17,13 @@ Later on, expand into **Python + InfoSec** as a separate track.
 ### Completed:
 - [x] Responsive Web Design  
   - 🖥️ [FCC Projects – Responsive Web Design (CodePen Collection)](https://codepen.io/collection/OyNaGb)
+- [x] JavaScript Algorithms and Data Structures  
+  - 🖥️ [FCC Projects – JS: Algorithms & Data Structures (CodePen Collection)](https://codepen.io/collection/EPypbo)  
 
 ### Current:
-- [x] JavaScript Algorithms and Data Structures  
-  - 🖥️ [FCC Projects – JS: Algorithms & Data Structures (CodePen Collection)](https://codepen.io/collection/EPypbo )  
-    
+- [x] Front End Libraries
+   
 ### Yet To Start:
-- [ ] Front End Libraries  
-  - _(collection link placeholder)_  
 - [ ] Data Visualization  
   - _(collection link placeholder)_  
 - [ ] Relational Databases  
