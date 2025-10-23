@@ -1,10 +1,12 @@
 // src/components/HelloJsx.jsx
 export default function HelloJsx() {
   const JSX = (
-    <div>
+    <div className="myDiv">
       {/* This is a JSX comment */}
-      <h1>My First JSX</h1>
-      <p>This paragraph sits under the heading.</p>
+      <h2>Welcome to React!</h2>
+      <br />
+      <p>Be sure to close all tags!</p>
+      <hr />
       <ul>
         <li>First item</li>
         <li>Second item</li>
