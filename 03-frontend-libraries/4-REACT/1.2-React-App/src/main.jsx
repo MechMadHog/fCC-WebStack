@@ -4,3 +4,5 @@ import App from './App.jsx'
 import './styles/styles.css'
 
 ReactDOM.render(JSX, document.getElementById('challenge-node'));
+// ReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'))
+

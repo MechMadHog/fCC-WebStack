@@ -1,25 +1,13 @@
-const ChildComponent = () => {
-  return (
-    <div>
-      <p>I am the child</p>
-    </div>
-  );
-};
-
-class ParentComponent extends React.Component {
-  constructor(props) {
+class MyComponent extends React.Component{
+  constructor(props){
     super(props);
   }
-  render() {
-    return (
-      <div>
-        <h1>I am the parent</h1>
-        { /* Change code below this line */ }
-             <ChildComponent />
-        { /* Change code above this line */ }
-      </div>
+  render(){
+    return(
+          <div id="challenge-node">
+                 <h1>My First React Component!</h1>
+          </div>
     );
   }
 };
-
-export default MyComponent;
+ReactDOM.render(<MyComponent/>, document.getElementById("challenge-node"));
