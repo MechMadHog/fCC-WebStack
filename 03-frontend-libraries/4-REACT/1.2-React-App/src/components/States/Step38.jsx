@@ -1,8 +1,3 @@
-
-
-
-
-
 const inputStyle = {
   width: 235,
   margin: 5
