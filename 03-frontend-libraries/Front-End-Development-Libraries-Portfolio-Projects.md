@@ -45,8 +45,8 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 
 ---
 
-## 5. ⏱️ Pomodoro Clock
-**Origin:** FCC Pomodoro Clock  
+## 5. ⏱️ "Pomodoro" Clock
+**Origin:** FCC 25 + 5 Clock 
 **Project:** *Planned*  
 **Plan:** A clean timer interface with animated circular progress, pause/resume control via Redux state, and a focus-mode design echoing mechanical stopwatch dials.
 
