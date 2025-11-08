@@ -26,8 +26,14 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 
 ## 2. 📝 Markdown Previewer
 **Origin:** FCC Markdown Previewer  
-**Project:** *Coming soon*  
-**Plan:** Use React’s controlled components to render live Markdown input via the `marked` library, styled with a CRT-terminal aesthetic. Include themes toggled by state (dark / light / blueprint).
+**Project:** [Markdown Previewer](https://codepen.io/Mike-MacDonagh/pen/KwVOPrL)
+
+**What I learned:**
+- Built a React 17 app with a controlled `<textarea id="editor">` that live-renders into `<div id="preview">` using **Marked**.
+- Enabled GitHub-flavored Markdown with `gfm: true` and single-newline support with `breaks: true`.
+- Crafted a light UI theme (purple/greys/white) with clean split-view layout, responsive grid, and accessible focus states.
+- Wrote a concise **Markdown Cheatsheet** as the default text meeting all FCC requirements (H1/H2, link, inline code, code block, list items, blockquote, image, bold). Used my own avatar image for the example.
+- Safely rendered HTML via `dangerouslySetInnerHTML` with Marked output; kept IDs/test hooks exact for FCC.
 
 ---
 
