@@ -12,28 +12,30 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 
 ---
 
-## 1. 🟡 Random Quote Machine → *Random (Simpsons) Quote Machine*
+## 1. 🟡 Random (Simpsons) Quote Machine  
 **Origin:** FCC Random Quote Machine  
 **Project:** [Simpsons Quote Machine](https://codepen.io/Mike-MacDonagh/pen/KwVjwzy)  
+
 **What I learned:**  
-- Used React 17 to avoid known testing issues with React 18’s root API  
-- Managed local state for quote and author, rendered dynamically  
-- Built a Simpsons-themed UI using bright yellows, teal accents, and cartoon clouds  
-- Added a local quotes array for reliability instead of unstable APIs  
-- Styled with just CSS to capture the show’s flat-toon look while keeping all FCC test IDs intact  
+- Built a React 17 app to avoid known testing issues with React 18’s root API.  
+- Managed local state for quote and author, rendered dynamically.  
+- Created a **Simpsons-themed UI** using bright yellows, teal accents, and cartoon clouds.  
+- Used a **local quotes array** for reliability instead of unstable APIs.  
+- Styled purely with **CSS** to capture the show’s flat-toon aesthetic while keeping all FCC test IDs intact.  
 
 ---
 
-## 2. 📝 Markdown Previewer
+## 2. 📝 Markdown Previewer  
 **Origin:** FCC Markdown Previewer  
-**Project:** [Markdown Previewer](https://codepen.io/Mike-MacDonagh/pen/KwVOPrL)
+**Project:** [Markdown Previewer](https://codepen.io/Mike-MacDonagh/pen/KwVOPrL)  
 
-**What I learned:**
-- Built a React 17 app with a controlled `<textarea id="editor">` that live-renders into `<div id="preview">` using **Marked**.
-- Enabled GitHub-flavored Markdown with `gfm: true` and single-newline support with `breaks: true`.
-- Crafted a light UI theme (purple/greys/white) with clean split-view layout, responsive grid, and accessible focus states.
-- Wrote a concise **Markdown Cheatsheet** as the default text meeting all FCC requirements (H1/H2, link, inline code, code block, list items, blockquote, image, bold). Used my own avatar image for the example.
-- Safely rendered HTML via `dangerouslySetInnerHTML` with Marked output; kept IDs/test hooks exact for FCC.
+**What I learned:**  
+- Built a React 17 app with a controlled `<textarea id="editor">` that live-renders into `<div id="preview">` using **Marked**.  
+- Enabled **GitHub-flavored Markdown** with `gfm: true` and single-newline support via `breaks: true`.  
+- Designed a **light UI theme** (purple, greys, white) with a clean split-view layout, responsive grid, and accessible focus states.  
+- Wrote a **Markdown Cheatsheet** as the default text, meeting all FCC requirements (H1/H2, link, inline code, code block, list items, blockquote, image, bold). Used my own avatar image for the example.  
+- Safely rendered HTML with `dangerouslySetInnerHTML` using Marked output and preserved exact FCC IDs/test hooks.  
+
 
 ---
 
