@@ -52,10 +52,16 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 
 ---
 
-## 4. 🧮 JavaScript Calculator
+## 4. 🧮 JavaScript Calculator  
 **Origin:** FCC JavaScript Calculator  
-**Project:** *Planned*  
-**Plan:** Minimalist, glassy calculator built in React with dynamic expression parsing, chained operations, and smooth button feedback — themeable via SASS variables.
+**Project:** [JavaScript Calculator](https://codepen.io/Mike-MacDonagh/pen/YPqKyRj)  
+
+**What I learned:**  
+- Built the interface with **jQuery** for DOM logic and **Bootstrap** for layout and responsive styling.  
+- Tracked both the current entry and the full expression to handle chained operations cleanly.  
+- Implemented **AC** and **CE**, guarded against duplicate decimals, and handled leading zeros correctly.  
+- Normalized consecutive operators and computed results on `=` to match typical calculator behavior.  
+- Kept IDs and test hooks exact for FCC while keeping the UI accessible and keyboard friendly.  
 
 ---
 
