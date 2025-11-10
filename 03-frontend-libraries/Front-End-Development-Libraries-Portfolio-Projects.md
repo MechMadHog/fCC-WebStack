@@ -36,13 +36,19 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 - Wrote a **Markdown Cheatsheet** as the default text, meeting all FCC requirements (H1/H2, link, inline code, code block, list items, blockquote, image, bold). Used my own avatar image for the example.  
 - Safely rendered HTML with `dangerouslySetInnerHTML` using Marked output and preserved exact FCC IDs/test hooks.  
 
-
 ---
 
-## 3. 🥁 Drum Machine
+## 3. 🥁 Drum Machine  
 **Origin:** FCC Drum Machine  
-**Project:** *Planned*  
-**Plan:** A synthwave-inspired pad grid using keyboard bindings, Web Audio API for custom sounds, and neon reactive animations tied to Redux actions.
+**Project:** [Drum Machine](https://codepen.io/Mike-MacDonagh/pen/EaKYVOX)  
+
+**What I learned:**  
+- Built an interactive **React 17** app that plays audio clips mapped to both on-screen buttons and keyboard keys.  
+- Managed **state and event handling** to display the active sound name and trigger playback dynamically.  
+- Implemented **keyboard listeners** for responsive real-time drumming using `useEffect` for cleanup and performance.  
+- Designed a **bold arcade-style UI** with strong contrast, teal accents, and tactile button feedback.  
+- Ensured **FCC test compliance** by keeping exact `id` attributes and accessible button elements.  
+- Structured and styled the layout with pure **CSS Grid** to maintain clarity and rhythm-machine alignment.  
 
 ---
 
