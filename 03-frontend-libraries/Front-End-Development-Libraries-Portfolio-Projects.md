@@ -1,7 +1,7 @@
 # Front End Development Libraries, Portfolio Projects
 
 **FreeCodeCamp Certificate 03: Front End Development Libraries (In Progress)**  
-[View Certificate](#)
+[View Certificate](https://www.freecodecamp.org/certification/mechmadhog/front-end-development-libraries)
 
 🧠 This is my third FreeCodeCamp certificate.  
 If the first proved I could **build** the house (HTML/CSS) and the second wired it with **logic** (JavaScript), this one is about lighting it up;bringing color, motion, and interactivity through libraries and frameworks.
@@ -76,7 +76,6 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 - Kept logic predictable with a single **state machine** (Idle → Running → Paused → Switch), avoiding race conditions.
 - Added an **animated circular progress** ring tied to remaining seconds, and accessible labels/aria-live for screen readers.
 - Ensured full keyboard support (space = start/pause, r = reset) and **mobile-friendly** layout.
-
 
 ---
 
