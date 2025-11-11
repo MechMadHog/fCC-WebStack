@@ -65,10 +65,18 @@ Like before, I treat the base assignments as **scaffolds** / foundations to cust
 
 ---
 
-## 5. ⏱️ "Pomodoro" Clock
-**Origin:** FCC 25 + 5 Clock 
-**Project:** *Planned*  
-**Plan:** A clean timer interface with animated circular progress, pause/resume control via Redux state, and a focus-mode design echoing mechanical stopwatch dials.
+## 5. ⏱️ 25 + 5 Clock (Pomodoro)
+**Origin:** FCC 25 + 5 Clock  
+**Project:** [Pomodoro Clock](https://codepen.io/Mike-MacDonagh/pen/MYygaZe)
+
+**What I learned:**
+- Implemented **session** and **break** lengths with bounds and live UI sync (increments/decrements disabled at runtime).
+- Built a reliable **countdown** that survives pauses/resumes without drift; resets to default on command.
+- On reaching 00:00, plays an **audio beep** exactly once and switches between session ↔ break automatically.
+- Kept logic predictable with a single **state machine** (Idle → Running → Paused → Switch), avoiding race conditions.
+- Added an **animated circular progress** ring tied to remaining seconds, and accessible labels/aria-live for screen readers.
+- Ensured full keyboard support (space = start/pause, r = reset) and **mobile-friendly** layout.
+
 
 ---
 
