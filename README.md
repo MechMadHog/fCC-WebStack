@@ -19,19 +19,23 @@ Later on, expand into **Python + InfoSec** as a separate track.
   - 🖥️ [FCC Projects – Responsive Web Design (CodePen Collection)](https://codepen.io/collection/OyNaGb)
 - [x] JavaScript Algorithms and Data Structures  
   - 🖥️ [FCC Projects – JS: Algorithms & Data Structures (CodePen Collection)](https://codepen.io/collection/EPypbo)  
+- [x] Front End Libraries
+  - 🖥️ [FCC Projects - Front End Development Libraries (CodePen Collection)](https://codepen.io/collection/VvmzEd)  
 
 ### Current:
-- [x] Front End Libraries
-   
-### Yet To Start:
 - [ ] Data Visualization  
-  - _(collection link placeholder)_  
-- [ ] Relational Databases  
-  - _(collection link placeholder)_
+
+### Yet To Start:
 - [ ] Back End Development and APIs  
+  - _(collection link placeholder)_
+- [ ] Information Security 
   - _(collection link placeholder)_  
 - [ ] Quality Assurance  
-  - _(collection link placeholder)_  
+  - _(collection link placeholder)_
+
+### Yet To Start:
+- [ ] Relational Databases  **BONUS**
+  - _(collection link placeholder)_
 
 ---
 
