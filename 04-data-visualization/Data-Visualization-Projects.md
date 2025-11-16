@@ -14,7 +14,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 1. 📊 Bar Chart - Global GDP  
 **Origin:** FCC *Visualize Data with a Bar Chart*  
-**Project:** *Planned*
+**Project:** [Bar Chart](https://codepen.io/Mike-MacDonagh/pen/qEZqvLP)
 
 **What I learned / will demonstrate:**  
 - Fetching external JSON data and rendering a **D3-driven SVG bar chart**.  
@@ -27,7 +27,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 2. 🔵 Scatterplot Graph - Doping in Cycling  
 **Origin:** FCC *Visualize Data with a Scatterplot Graph*  
-**Project:** *Planned*
+**Project:** [Planned](#)
 
 **What I learned / will demonstrate:**  
 - Plotting **paired numerical data** (year vs time) as SVG circles using D3 scales.  
