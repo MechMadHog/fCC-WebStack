@@ -27,7 +27,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 2. 🔵 Scatterplot Graph - Doping in Cycling  
 **Origin:** FCC *Visualize Data with a Scatterplot Graph*  
-**Project:** [Planned](#)
+**Project:** [Scatterplot Graph](https://codepen.io/Mike-MacDonagh/pen/EaKmgwN)
 
 **What I learned / will demonstrate:**  
 - Plotting **paired numerical data** (year vs time) as SVG circles using D3 scales.  
