@@ -40,7 +40,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 3. 🔥 Heat Map - Monthly Global Temperatures  
 **Origin:** FCC *Visualize Data with a Heat Map*  
-**Project:** [Planned](#)
+**Project:** [Planned](https://codepen.io/Mike-MacDonagh/pen/MYymvdj)
 
 **What I learned / will demonstrate:**  
 - Transforming a dataset into a **color-mapped two dimensional grid** (month vs year, temperature variance).  
