@@ -14,7 +14,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 1. 📊 Bar Chart - Global GDP  
 **Origin:** FCC *Visualize Data with a Bar Chart*  
-**Project:** [Bar Chart](https://codepen.io/Mike-MacDonagh/pen/qEZqvLP)
+**Project:** [US GDP Bar-Chart](https://codepen.io/Mike-MacDonagh/pen/qEZqvLP)
 
 **What I learned / will demonstrate:**  
 - Fetching external JSON data and rendering a **D3-driven SVG bar chart**.  
@@ -27,7 +27,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 2. 🔵 Scatterplot Graph - Doping in Cycling  
 **Origin:** FCC *Visualize Data with a Scatterplot Graph*  
-**Project:** [Scatterplot Graph](https://codepen.io/Mike-MacDonagh/pen/EaKmgwN)
+**Project:** [Doping Scatterplot](https://codepen.io/Mike-MacDonagh/pen/EaKmgwN)
 
 **What I learned / will demonstrate:**  
 - Plotting **paired numerical data** (year vs time) as SVG circles using D3 scales.  
@@ -40,7 +40,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 3. 🔥 Heat Map - Monthly Global Temperatures  
 **Origin:** FCC *Visualize Data with a Heat Map*  
-**Project:** [Planned](https://codepen.io/Mike-MacDonagh/pen/MYymvdj)
+**Project:** [Surface Temperature Heat Map](https://codepen.io/Mike-MacDonagh/pen/MYymvdj)
 
 **What I learned / will demonstrate:**  
 - Transforming a dataset into a **color-mapped two dimensional grid** (month vs year, temperature variance).  
@@ -53,7 +53,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 4. 🗺️ Choropleth Map - US Education Levels  
 **Origin:** FCC *Visualize Data with a Choropleth Map*  
-**Project:** [Planned](#)
+**Project:** [US Education Choropleth](https://codepen.io/Mike-MacDonagh/pen/QwNvOBB)
 
 **What I learned / will demonstrate:**  
 - Using **TopoJSON** with D3 to render a scalable, zoom free **US county map**.  
@@ -66,7 +66,7 @@ Like before, I treat the base assignments as **scaffolds** or foundations. Each 
 
 ## 5. 🍃 Treemap Diagram - Top Video Game Sales  
 **Origin:** FCC *Visualize Data with a Treemap Diagram*  
-**Project:** [Planned](#)
+**Project:** [Game Sales Tree Map](https://codepen.io/Mike-MacDonagh/pen/vEGZjxZ)
 
 **What I learned / will demonstrate:**  
 - Parsing categorical data into a **hierarchical structure** for D3 treemap layout.  
