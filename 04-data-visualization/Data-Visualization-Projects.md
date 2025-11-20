@@ -1,5 +1,5 @@
 **FreeCodeCamp Certificate 04: Data Visualization (Planned)**  
-[View Certificate](#)
+[View Certificate](https://www.freecodecamp.org/certification/mechmadhog/data-visualization)
 
 🧠 This will be my fourth FreeCodeCamp certificate.  
 If the first proved I could **build** the house (HTML/CSS), the second wired it with **logic** (JavaScript), and the third **lit it up** with libraries, this one is about turning everything that happens inside into **stories on the wall**... charts, maps, and diagrams that make the data obvious at a glance.
